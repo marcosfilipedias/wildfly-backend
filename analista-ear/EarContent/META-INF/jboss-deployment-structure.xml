@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-deployment-structure>
+    <deployment>   
+        <dependencies> 
+            <module export="true" name="org.apache.commons.lang" />    
+            <module export="true" name="org.apache.commons.codec" services="import"/>  
+            <module export="true" name="io.undertow.core" services="import"/>  
+            <module export="true" name="io.undertow.servlet" services="import"/> 
+            <module export="true" name="org.codehaus.jackson.jackson-mapper-asl" services="import"/>   
+            <module export="true" name="org.apache.httpcomponents"/>
+                       
+        </dependencies>           
+    </deployment>   
+</jboss-deployment-structure>  
