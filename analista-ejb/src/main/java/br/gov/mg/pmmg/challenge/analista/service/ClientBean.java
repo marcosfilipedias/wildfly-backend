@@ -9,6 +9,7 @@ import javax.persistence.PersistenceContext;
 
 import br.gov.mg.pmmg.challenge.analista.dao.ClientDao;
 import br.gov.mg.pmmg.challenge.analista.model.Client;
+import br.gov.mg.pmmg.challenge.analista.model.dto.ClientDto;
 
 @Stateless
 public class ClientBean {
@@ -52,7 +53,7 @@ public class ClientBean {
 		return this.clienteDao.getClientByEmail(email);
 	}
 
-	public List<Client> getAllClients() {
+	public List<ClientDto> getAllClients() {
 		return this.clienteDao.getAllClients();
 	}
 }

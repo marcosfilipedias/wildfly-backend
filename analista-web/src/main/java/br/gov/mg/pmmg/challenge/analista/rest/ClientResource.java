@@ -28,13 +28,14 @@ public class ClientResource {
 	@POST
 	@Path("/save")
 	@RolesAllowed("/analista/rest/client/save")
-	public Response salvar(Client c) {
+	public Response salvar(Client client) {
 		try {
-			this.clientBean.save(c);
+			//Client client = new JsonDateDesealize().deserialize(jsonClient, Client.class);
+			this.clientBean.save(client);
 		} catch (Exception e) {
 			return Response.status(Status.CONFLICT).entity(e).build();
 		}
-		return Response.ok(c).build();
+		return Response.ok(client).build();
 	}
 
 	@GET
