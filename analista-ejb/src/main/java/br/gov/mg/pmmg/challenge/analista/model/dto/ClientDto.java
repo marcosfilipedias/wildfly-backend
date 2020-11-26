@@ -3,8 +3,6 @@ package br.gov.mg.pmmg.challenge.analista.model.dto;
 import java.math.BigInteger;
 import java.util.Date;
 
-import br.gov.mg.pmmg.challenge.analista.enums.PlanoEnum;
-
 public class ClientDto {
 
 	private Integer id;
@@ -13,7 +11,7 @@ public class ClientDto {
 
 	private String cpf;
 
-	private Date dataNascimento;
+	private Long dataNascimento;
 	
 	private String sexo;
 	
@@ -21,7 +19,7 @@ public class ClientDto {
 	
 	private String email;
 	
-	private int plano;
+	private Integer plano;
 	
 	public Integer getId() {
 		return id;
@@ -51,13 +49,18 @@ public class ClientDto {
 		this.cpf = cpf;
 	}
 
-	public Date getDataNascimento() {
+	public Long getDataNascimento() {
 		return dataNascimento;
 	}
 
 	public void setDataNascimento(Date dataNascimento) {
-		this.dataNascimento = dataNascimento;
+		if(dataNascimento!=null) {
+			this.dataNascimento = dataNascimento.getTime();
+		}else {
+			this.dataNascimento = null;
+		}
 	}
+
 
 	public String getSexo() {
 		return sexo;
@@ -83,11 +86,11 @@ public class ClientDto {
 		this.email = email;
 	}
 
-	public int getPlano() {
+	public Integer getPlano() {
 		return plano;
 	}
 
-	public void setPlano(int plano) {
+	public void setPlano(Integer plano) {
 		this.plano = plano;
 	}
 	

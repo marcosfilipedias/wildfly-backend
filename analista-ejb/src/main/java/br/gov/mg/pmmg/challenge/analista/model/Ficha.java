@@ -24,13 +24,13 @@ public class Ficha{
 	
 	@OneToOne(cascade=CascadeType.ALL)
 	@JoinColumn(name = "CLIENT_ID", referencedColumnName = "ID")
-	private Client cliente;
+	private Cliente cliente;
 	
 	@Column(name = "DATA_CRIACAO")
 	private Date dataCriacao;
 	
 	@OneToMany(mappedBy = "ficha")
-	private List<ProcedimentoRealizado> procedimentosRealizados;
+	private List<MarcacaoProcedimento> procedimentosRealizados;
 
 	public Long getId() {
 		return id;
@@ -40,11 +40,11 @@ public class Ficha{
 		this.id = id;
 	}
 
-	public Client getCliente() {
+	public Cliente getCliente() {
 		return cliente;
 	}
 
-	public void setCliente(Client cliente) {
+	public void setCliente(Cliente cliente) {
 		this.cliente = cliente;
 	}
 
@@ -56,11 +56,11 @@ public class Ficha{
 		this.dataCriacao = dataCriacao;
 	}
 
-	public List<ProcedimentoRealizado> getProcedimentosRealizados() {
+	public List<MarcacaoProcedimento> getProcedimentosRealizados() {
 		return procedimentosRealizados;
 	}
 
-	public void setProcedimentosRealizados(List<ProcedimentoRealizado> procedimentosRealizados) {
+	public void setProcedimentosRealizados(List<MarcacaoProcedimento> procedimentosRealizados) {
 		this.procedimentosRealizados = procedimentosRealizados;
 	}
 	

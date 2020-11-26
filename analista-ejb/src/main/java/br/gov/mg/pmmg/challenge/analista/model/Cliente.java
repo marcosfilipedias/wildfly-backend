@@ -12,7 +12,7 @@ import br.gov.mg.pmmg.challenge.analista.enums.PlanoEnum;
 
 @Entity
 @Table(name = "CLIENT")
-public class Client{
+public class Cliente{
 	
 	@Id
 	@GeneratedValue

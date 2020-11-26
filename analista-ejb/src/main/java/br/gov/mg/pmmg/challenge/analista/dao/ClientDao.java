@@ -6,13 +6,12 @@ import java.util.Date;
 import java.util.List;
 
 import javax.persistence.EntityManager;
-import javax.persistence.NoResultException;
 import javax.persistence.Query;
 
-import br.gov.mg.pmmg.challenge.analista.model.Client;
+import br.gov.mg.pmmg.challenge.analista.model.Cliente;
 import br.gov.mg.pmmg.challenge.analista.model.dto.ClientDto;
 
-public class ClientDao extends GenericDao<Client> {
+public class ClientDao extends GenericDao<Cliente> {
 
 	/**
 	 * 
@@ -21,19 +20,6 @@ public class ClientDao extends GenericDao<Client> {
 
 	public ClientDao(EntityManager em) {
 		super(em);
-	}
-	
-	public Client getClientByEmail(String email) {
-		try {
-			StringBuilder sql = new StringBuilder();
-			sql.append(" SELECT * FROM Client c WHERE c.email =:email ");
-			Query query = em.createNativeQuery(sql.toString(), Client.class);
-			query.setParameter("email", email);
-			query.setMaxResults(1);			
-			return (Client) query.getSingleResult();
-		}catch(NoResultException e) {
-			return null;
-		}
 	}
 	
 	@SuppressWarnings("unchecked")
@@ -53,7 +39,7 @@ public class ClientDao extends GenericDao<Client> {
 				c.setDataNascimento((Date) res[2]);
 				c.setEmail((String) res[3]);
 				c.setNome((String) res[4]);
-				c.setPlano((int) res[5]);
+				c.setPlano((Integer) res[5]);
 				c.setSexo((String) res[6]);
 				c.setTelefone((String) res[7]);
 				clientes.add(c);

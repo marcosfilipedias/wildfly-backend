@@ -8,7 +8,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
 import br.gov.mg.pmmg.challenge.analista.dao.ClientDao;
-import br.gov.mg.pmmg.challenge.analista.model.Client;
+import br.gov.mg.pmmg.challenge.analista.model.Cliente;
 import br.gov.mg.pmmg.challenge.analista.model.dto.ClientDto;
 
 @Stateless
@@ -28,7 +28,7 @@ public class ClientBean {
 		this.clienteDao = new ClientDao(em);
 	}
 	
-	public void save(Client client) {		
+	public void save(Cliente client) {		
 		if(client.getId()!=null) {
 			this.clienteDao.update(client);
 		}else {
@@ -36,12 +36,12 @@ public class ClientBean {
 		}
 	}
 	
-	public Client getClientById(Long idClient) {
-		return  this.clienteDao.getById(Client.class, idClient);
+	public Cliente getClientById(Long idClient) {
+		return  this.clienteDao.getById(Cliente.class, idClient);
 	}
 	
 	public boolean delete(Long idClient) {
-		Client client = this.getClientById(idClient);
+		Cliente client = this.getClientById(idClient);
 		if(client!=null) {
 			this.clienteDao.delete(client);
 			return true;
@@ -49,10 +49,6 @@ public class ClientBean {
 		return false;
 	}
 	
-	public Client getClientByEmail(String email) {
-		return this.clienteDao.getClientByEmail(email);
-	}
-
 	public List<ClientDto> getAllClients() {
 		return this.clienteDao.getAllClients();
 	}

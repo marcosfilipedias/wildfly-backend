@@ -68,4 +68,16 @@ public class ProcedimentoResource {
 		this.procedimentoBean.delete(id);
 		return Response.noContent().build();
 	}
+	
+	@GET
+	@Path("")
+	@RolesAllowed("/analista/rest/procedimento")
+	public Response buscar() {
+		try {
+			return Response.ok(this.procedimentoBean.getAll()).build();
+		} catch (Exception e) {
+			return Response.status(Status.CONFLICT).entity(e).build();
+		}
+		
+	}
 }

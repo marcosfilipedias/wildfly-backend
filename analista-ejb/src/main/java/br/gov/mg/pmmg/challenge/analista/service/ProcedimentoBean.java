@@ -1,12 +1,16 @@
 package br.gov.mg.pmmg.challenge.analista.service;
 
+import java.util.List;
+
 import javax.annotation.PostConstruct;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
 import br.gov.mg.pmmg.challenge.analista.dao.ProcedimentoDao;
+import br.gov.mg.pmmg.challenge.analista.model.MarcacaoProcedimento;
 import br.gov.mg.pmmg.challenge.analista.model.Procedimento;
+import br.gov.mg.pmmg.challenge.analista.model.dto.ProcedimentoDto;
 
 @Stateless
 public class ProcedimentoBean {
@@ -43,5 +47,13 @@ public class ProcedimentoBean {
 			return true;
 		}
 		return false;
+	}
+
+	public List<ProcedimentoDto> getAll() {
+		return this.procedimentoDao.getAll();
+	}
+	
+	public boolean marcarProcedimento(MarcacaoProcedimento mp) {
+		return marcarProcedimento(mp);
 	}
 }

@@ -1,5 +1,7 @@
 package br.gov.mg.pmmg.challenge.analista.rest;
 
+import java.util.Date;
+
 import javax.annotation.security.RolesAllowed;
 import javax.ejb.EJB;
 import javax.ws.rs.Consumes;
@@ -14,7 +16,11 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 
-import br.gov.mg.pmmg.challenge.analista.model.Client;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
+import br.gov.mg.pmmg.challenge.analista.json.JsonDateDesealize;
+import br.gov.mg.pmmg.challenge.analista.model.Cliente;
 import br.gov.mg.pmmg.challenge.analista.service.ClientBean;
 
 @Path("/client")
@@ -28,14 +34,17 @@ public class ClientResource {
 	@POST
 	@Path("/save")
 	@RolesAllowed("/analista/rest/client/save")
-	public Response salvar(Client client) {
+	public Response salvar(String jsonClient) {
 		try {
-			//Client client = new JsonDateDesealize().deserialize(jsonClient, Client.class);
+			//Client client = new Gson().fromJson(jsonClient, Client.class);
+			Gson gson = new GsonBuilder().registerTypeAdapter(Date.class, new JsonDateDesealize()).create();
+			Cliente client = gson.fromJson(jsonClient, Cliente.class);
 			this.clientBean.save(client);
+			return Response.ok(client).build();
 		} catch (Exception e) {
+			e.printStackTrace();
 			return Response.status(Status.CONFLICT).entity(e).build();
 		}
-		return Response.ok(client).build();
 	}
 
 	@GET
@@ -53,13 +62,15 @@ public class ClientResource {
 	@PUT
 	@Path("/atualizar")
 	@RolesAllowed("/analista/rest/client/atualizar")
-	public Response atualizar(Client c) {
+	public Response atualizar(String jsonClient) {
 		try {
-			this.clientBean.save(c);
+			Gson gson = new GsonBuilder().registerTypeAdapter(Date.class, new JsonDateDesealize()).create();
+			Cliente client = gson.fromJson(jsonClient, Cliente.class);
+			this.clientBean.save(client);
+			return Response.ok(client).build();
 		} catch (Exception e) {
 			return Response.status(Status.CONFLICT).entity(e).build();
 		}
-		return Response.noContent().build();
 	}
 
 	@DELETE
