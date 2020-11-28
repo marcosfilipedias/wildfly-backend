@@ -19,28 +19,30 @@ public abstract class GenericDao<T> implements Serializable {
 		this.em = em;
 	}
 	
-	public boolean create(T t) {
+	public T create(T t) {
 		try {
 			em.persist(t);
-			return true;
 		}catch(Exception e){
 			e.printStackTrace();
-			return false;
 		}
+		return t;
 	}
 	
-	public boolean update(T t) {
+	public T update(T t) {
 		try {
 			em.merge(t);
-			return true;
 		}catch(Exception e){
 			e.printStackTrace();
-			return false;
-		}
+		} 
+		return t;
 	}
 	
 	public void delete(T t) {
-		em.remove(t);
+		try {
+			em.remove(t);
+		}catch(Exception e){
+			e.printStackTrace();
+		} 	
 	}
 	
 	@SuppressWarnings({ "unchecked", "rawtypes" })

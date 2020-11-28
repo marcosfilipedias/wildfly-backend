@@ -33,7 +33,7 @@ public class ProcedimentoResource {
 		try {
 			this.procedimentoBean.save(p);
 		} catch (Exception e) {
-			return Response.status(Status.CONFLICT).entity(e).build();
+			return Response.status(Status.INTERNAL_SERVER_ERROR).entity(e).build();
 		}
 		return Response.ok(p).build();
 	}
@@ -45,7 +45,7 @@ public class ProcedimentoResource {
 		try {
 			return Response.ok(this.procedimentoBean.getProcedimentoById(id)).build();
 		} catch (Exception e) {
-			return Response.status(Status.CONFLICT).entity(e).build();
+			return Response.status(Status.INTERNAL_SERVER_ERROR).entity(e).build();
 		}
 	}
 
@@ -56,7 +56,7 @@ public class ProcedimentoResource {
 		try {
 			this.procedimentoBean.save(p);
 		} catch (Exception e) {
-			return Response.status(Status.CONFLICT).entity(e).build();
+			return Response.status(Status.INTERNAL_SERVER_ERROR).entity(e).build();
 		}
 		return Response.noContent().build();
 	}
@@ -76,8 +76,29 @@ public class ProcedimentoResource {
 		try {
 			return Response.ok(this.procedimentoBean.getAll()).build();
 		} catch (Exception e) {
-			return Response.status(Status.CONFLICT).entity(e).build();
+			return Response.status(Status.INTERNAL_SERVER_ERROR).entity(e).build();
 		}
+	}
+	
+	@GET
+	@Path("/marcarProcedimento/cliente/{idCliente}/procedimento/{idProcedimento}")
+	@RolesAllowed("/analista/rest/procedimento/marcarProcedimento")
+	public Response marcarProcedimento(@PathParam("idCliente") Long idCliente, @PathParam("idProcedimento") Long idProcedimento) {
+		try {
+			return Response.ok(this.procedimentoBean.marcarProcedimento(idCliente, idProcedimento)).build();
+		} catch (Exception e) {
+			return Response.status(Status.INTERNAL_SERVER_ERROR).entity(e).build();
+		}
+	}
 		
+	@GET
+	@Path("/procedimentosRealizados/cliente/{idCliente}")
+	@RolesAllowed("/analista/rest/procedimento/procedimentosRealizados")
+	public Response procedimentosRealizados(@PathParam("idCliente") Long idCliente) {
+		try {
+			return Response.ok(this.procedimentoBean.procedimentosRealizados(idCliente)).build();
+		} catch (Exception e) {
+			return Response.status(Status.INTERNAL_SERVER_ERROR).entity(e).build();
+		}
 	}
 }

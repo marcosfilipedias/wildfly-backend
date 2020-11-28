@@ -3,31 +3,40 @@ package br.gov.mg.pmmg.challenge.analista.service;
 import java.util.List;
 
 import javax.annotation.PostConstruct;
+import javax.ejb.Remote;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
-import br.gov.mg.pmmg.challenge.analista.dao.ClientDao;
+import br.gov.mg.pmmg.challenge.analista.dao.ClienteDao;
 import br.gov.mg.pmmg.challenge.analista.model.Cliente;
-import br.gov.mg.pmmg.challenge.analista.model.dto.ClientDto;
+import br.gov.mg.pmmg.challenge.analista.model.dto.ClienteDto;
 
 @Stateless
-public class ClientBean {
+@Remote
+public class ClienteBean {
 
 	
 	@PersistenceContext
 	private EntityManager em;
 	
-	private ClientDao clienteDao;
-
-	public ClientBean() {
-	}
+	private ClienteDao clienteDao;
 	
 	@PostConstruct
 	private void init() {
-		this.clienteDao = new ClientDao(em);
+		this.clienteDao = new ClienteDao(em);
 	}
 	
+	public ClienteBean() {
+	}
+				
+	public ClienteBean(EntityManager em) {
+		this.em = em;
+		this.clienteDao = new ClienteDao(em);
+	}
+
+
+
 	public void save(Cliente client) {		
 		if(client.getId()!=null) {
 			this.clienteDao.update(client);
@@ -37,7 +46,7 @@ public class ClientBean {
 	}
 	
 	public Cliente getClientById(Long idClient) {
-		return  this.clienteDao.getById(Cliente.class, idClient);
+		return this.clienteDao.getById(Cliente.class, idClient);
 	}
 	
 	public boolean delete(Long idClient) {
@@ -49,7 +58,7 @@ public class ClientBean {
 		return false;
 	}
 	
-	public List<ClientDto> getAllClients() {
+	public List<ClienteDto> getAllClients() {
 		return this.clienteDao.getAllClients();
 	}
 }

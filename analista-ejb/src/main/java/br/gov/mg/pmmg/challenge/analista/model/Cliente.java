@@ -11,7 +11,7 @@ import javax.persistence.Table;
 import br.gov.mg.pmmg.challenge.analista.enums.PlanoEnum;
 
 @Entity
-@Table(name = "CLIENT")
+@Table(name = "CLIENTE")
 public class Cliente{
 	
 	@Id

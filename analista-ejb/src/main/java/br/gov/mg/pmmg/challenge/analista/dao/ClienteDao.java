@@ -6,34 +6,45 @@ import java.util.Date;
 import java.util.List;
 
 import javax.persistence.EntityManager;
+import javax.persistence.NoResultException;
 import javax.persistence.Query;
 
 import br.gov.mg.pmmg.challenge.analista.model.Cliente;
-import br.gov.mg.pmmg.challenge.analista.model.dto.ClientDto;
+import br.gov.mg.pmmg.challenge.analista.model.dto.ClienteDto;
 
-public class ClientDao extends GenericDao<Cliente> {
+public class ClienteDao extends GenericDao<Cliente> {
 
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = -3292145760973825744L;
 
-	public ClientDao(EntityManager em) {
+	public ClienteDao(EntityManager em) {
 		super(em);
 	}
 	
-	@SuppressWarnings("unchecked")
-	public List<ClientDto> getAllClients(){
+	public Cliente getClienteById(Long idCliente) {
 		try {
-			List<ClientDto> clientes = new ArrayList<ClientDto>();
 			StringBuilder sql = new StringBuilder();
-			sql.append(" SELECT * FROM Client c ORDER BY c.nome ");
+			sql.append(" SELECT * FROM Cliente c WHERE c.id =:idCliente ");
+			return (Cliente) em.createQuery(sql.toString(), Cliente.class).setParameter("idCliente", idCliente);
+		}catch(NoResultException e) {
+			return null;
+		}
+	}
+	
+	@SuppressWarnings("unchecked")
+	public List<ClienteDto> getAllClients(){
+		try {
+			List<ClienteDto> clientes = new ArrayList<ClienteDto>();
+			StringBuilder sql = new StringBuilder();
+			sql.append(" SELECT * FROM Cliente c ORDER BY c.nome ");
 			Query query = em.createNativeQuery(sql.toString());
 			List<Object> objList = query.getResultList();
 			
 			for(int i=0; i< objList.size(); i++) {
 				Object[] res = (Object[]) objList.get(i);
-				ClientDto c = new ClientDto();
+				ClienteDto c = new ClienteDto();
 				c.setId((BigInteger) res[0]);
 				c.setCpf((String) res[1]);
 				c.setDataNascimento((Date) res[2]);

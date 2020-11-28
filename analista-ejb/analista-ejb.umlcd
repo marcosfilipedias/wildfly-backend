@@ -1,0 +1,1786 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_t5GLgDGREeuZ4L32F0ni_w">
+  <modelElement href="analista-ejb.uml#_uTXFpTGREeuZ4L32F0ni_w"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ukt7YDGREeuZ4L32F0ni_w" sourceAnchor="169.0,0.0" targetAnchor="155.0,192.0" superClass="_ukxlwDGREeuZ4L32F0ni_w" subClass="_ukkxcDGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_uYpOQDGREeuZ4L32F0ni_w"/>
+    <bendpoints xmi:id="_u1oFMDGREeuZ4L32F0ni_w" sourceY="-262" targetX="1258" targetY="-207"/>
+    <bendpoints xmi:id="_u1oFMTGREeuZ4L32F0ni_w" sourceX="-1517" sourceY="-262" targetX="-259" targetY="-207"/>
+    <bendpoints xmi:id="_u1oFMjGREeuZ4L32F0ni_w" sourceX="-1517" sourceY="-28" targetX="-259" targetY="27"/>
+    <bendpoints xmi:id="_u1oFMzGREeuZ4L32F0ni_w" sourceX="-1258" sourceY="-28" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ukuicDGREeuZ4L32F0ni_w" sourceAnchor="151.0,0.0" targetAnchor="155.0,192.0" superClass="_ukxlwDGREeuZ4L32F0ni_w" subClass="_ukqRADGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_uYvU4DGREeuZ4L32F0ni_w"/>
+    <bendpoints xmi:id="_u1osQDGREeuZ4L32F0ni_w" sourceY="-240" targetX="-394" targetY="27"/>
+    <bendpoints xmi:id="_u1osQTGREeuZ4L32F0ni_w" sourceX="394" sourceY="-240" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ukuicTGREeuZ4L32F0ni_w" source="_ukxlwDGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_ueA2cDGREeuZ4L32F0ni_w"/>
+    <stereotypes xmi:id="_ukwXoDGREeuZ4L32F0ni_w" name="Reference">
+      <modelElement href="analista-ejb.uml#_ueFH4DGREeuZ4L32F0ni_w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ukvwkDGREeuZ4L32F0ni_w" text=""/>
+    <sourceRole xmi:id="_ukvwkTGREeuZ4L32F0ni_w" aggregationKind="NONE" name="">
+      <modelElement href="analista-ejb.uml#_ueA2cTGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_ukwXojGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ukwXoTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ukvwkjGREeuZ4L32F0ni_w" aggregationKind="NONE" name="em" navigable="true">
+      <modelElement href="analista-ejb.uml#_ucPU0DGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_hdUx4DGSEeuZ4L32F0ni_w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_hdUx4TGSEeuZ4L32F0ni_w" name="Annotations"/>
+      <visibility xmi:id="_ukwXpDGREeuZ4L32F0ni_w" label="#"/>
+      <cardinality xmi:id="_ukwXozGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_uk4TcDGREeuZ4L32F0ni_w" sourceAnchor="401.0,0.0" targetAnchor="155.0,192.0" superClass="_ukxlwDGREeuZ4L32F0ni_w" subClass="_uk6IoDGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_uY_zkDGREeuZ4L32F0ni_w"/>
+    <bendpoints xmi:id="_u1osQjGREeuZ4L32F0ni_w" sourceY="-525" targetX="-140" targetY="27"/>
+    <bendpoints xmi:id="_u1osQzGREeuZ4L32F0ni_w" sourceX="140" sourceY="-525" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_uk8k4DGREeuZ4L32F0ni_w" sourceAnchor="227.0,118.0" targetAnchor="155.0,192.0" superClass="_ukxlwDGREeuZ4L32F0ni_w" subClass="_uk9zADGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_uZGhQDGREeuZ4L32F0ni_w"/>
+    <bendpoints xmi:id="_u1osRDGREeuZ4L32F0ni_w" sourceY="338" targetX="1312" targetY="989"/>
+    <bendpoints xmi:id="_u1osRTGREeuZ4L32F0ni_w" sourceX="-2257" sourceY="338" targetX="-945" targetY="989"/>
+    <bendpoints xmi:id="_u1osRjGREeuZ4L32F0ni_w" sourceX="-2257" sourceY="-624" targetX="-945" targetY="27"/>
+    <bendpoints xmi:id="_u1osRzGREeuZ4L32F0ni_w" sourceX="-1312" sourceY="-624" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ulFHwDGREeuZ4L32F0ni_w" sourceAnchor="198.0,15.0" targetAnchor="0.0,75.0" target="_ulPf0TGREeuZ4L32F0ni_w" source="_ulHkADGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_udwXwjGREeuZ4L32F0ni_w"/>
+    <nameVisual xmi:id="_ulGV4DGREeuZ4L32F0ni_w" text="">
+      <visualProperties xmi:id="_u1sWoDGREeuZ4L32F0ni_w" position="19.56710960966967,-18.652081957196543"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ulGV4TGREeuZ4L32F0ni_w" name="cliente" navigable="true">
+      <modelElement href="analista-ejb.uml#_udB_ADGREeuZ4L32F0ni_w"/>
+      <visualProperties xmi:id="_u1rvkTGREeuZ4L32F0ni_w" position="26.983510310651305,-32.92742276268481"/>
+      <stereotypes xmi:id="_ulG88jGREeuZ4L32F0ni_w" name="JoinColumns">
+        <modelElement href="analista-ejb.uml#_udB_ATGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ulG88TGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulG88DGREeuZ4L32F0ni_w" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ulGV4jGREeuZ4L32F0ni_w" aggregationKind="NONE" name="">
+      <modelElement href="analista-ejb.uml#_udwXwTGREeuZ4L32F0ni_w"/>
+      <visualProperties xmi:id="_u1s9sDGREeuZ4L32F0ni_w" position="0.7406171356130358,-33.04288826176054"/>
+      <visibility xmi:id="_ulG89DGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulG88zGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ulNqoDGREeuZ4L32F0ni_w" sourceAnchor="89.0,0.0" targetAnchor="0.0,45.0" target="_ulPf0TGREeuZ4L32F0ni_w" source="_ulVmeDGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_udIFoTGREeuZ4L32F0ni_w"/>
+    <bendpoints xmi:id="_u1pTUDGREeuZ4L32F0ni_w" sourceY="-240" targetX="-430"/>
+    <nameVisual xmi:id="_ulORsDGREeuZ4L32F0ni_w" text="">
+      <visualProperties xmi:id="_u1uL0DGREeuZ4L32F0ni_w" position="0.3567579032651338,187.20449651534284"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ulO4wDGREeuZ4L32F0ni_w" aggregationKind="NONE" name="procedimentosRealizados" navigable="true">
+      <modelElement href="analista-ejb.uml#_udHekDGREeuZ4L32F0ni_w"/>
+      <visualProperties xmi:id="_u1tkwDGREeuZ4L32F0ni_w" position="-64.5017998181603,-67.63634447715256"/>
+      <visibility xmi:id="_ulO4wzGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulO4wjGREeuZ4L32F0ni_w" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ulO4wTGREeuZ4L32F0ni_w" aggregationKind="NONE" name="ficha" navigable="true">
+      <modelElement href="analista-ejb.uml#_udIFoDGREeuZ4L32F0ni_w"/>
+      <visualProperties xmi:id="_u1uL0TGREeuZ4L32F0ni_w" position="-440.13633437695955,167.7558468839727"/>
+      <stereotypes xmi:id="_ulPf0DGREeuZ4L32F0ni_w" name="JoinColumns">
+        <modelElement href="analista-ejb.uml#_udOMQDGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ulO4xTGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulO4xDGREeuZ4L32F0ni_w" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ulVmcDGREeuZ4L32F0ni_w" sourceAnchor="89.0,0.0" targetAnchor="0.0,47.0" target="_ulVmeDGREeuZ4L32F0ni_w" source="_ulZ34DGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_udxl4zGREeuZ4L32F0ni_w"/>
+    <bendpoints xmi:id="_u1pTUTGREeuZ4L32F0ni_w" sourceY="-98" targetX="-158"/>
+    <nameVisual xmi:id="_ulVmcTGREeuZ4L32F0ni_w" text="">
+      <visualProperties xmi:id="_u1vZ8DGREeuZ4L32F0ni_w" position="1.905588033008712,52.921294748824835"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ulVmcjGREeuZ4L32F0ni_w" aggregationKind="NONE" name="procedimento" navigable="true">
+      <modelElement href="analista-ejb.uml#_udOMQjGREeuZ4L32F0ni_w"/>
+      <visualProperties xmi:id="_u1uy4DGREeuZ4L32F0ni_w" position="-34.153637900811304,-70.09737458215625"/>
+      <stereotypes xmi:id="_hdUK0DGSEeuZ4L32F0ni_w" name="JoinColumns"/>
+      <visibility xmi:id="_ulVmczGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulVmdDGREeuZ4L32F0ni_w" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ulVmdTGREeuZ4L32F0ni_w" aggregationKind="NONE" name="">
+      <modelElement href="analista-ejb.uml#_udxl4TGREeuZ4L32F0ni_w"/>
+      <visualProperties xmi:id="_u1wBADGREeuZ4L32F0ni_w" position="-158.48133066901892,42.32110721897885"/>
+      <visibility xmi:id="_ulVmdjGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulVmdzGREeuZ4L32F0ni_w" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ulqWkDGREeuZ4L32F0ni_w" sourceAnchor="300.0,0.0" targetAnchor="72.0,118.0" target="_ukkxcDGREeuZ4L32F0ni_w" source="_uluA8DGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_ueIyQTGREeuZ4L32F0ni_w"/>
+    <stereotypes xmi:id="_ulrksDGREeuZ4L32F0ni_w" name="Reference">
+      <modelElement href="analista-ejb.uml#_ueMcoDGREeuZ4L32F0ni_w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ulq9oTGREeuZ4L32F0ni_w" text="">
+      <visualProperties xmi:id="_u1woETGREeuZ4L32F0ni_w" position="-25.1301461170967,-79.94677479108536"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ulq9ojGREeuZ4L32F0ni_w" aggregationKind="NONE" name="">
+      <modelElement href="analista-ejb.uml#_ueIyQjGREeuZ4L32F0ni_w"/>
+      <visualProperties xmi:id="_u1woEDGREeuZ4L32F0ni_w" position="-17.845593664490124,-74.89153651177614"/>
+      <visibility xmi:id="_ulsy1TGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulsy1DGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ulq9ozGREeuZ4L32F0ni_w" aggregationKind="NONE" name="clienteDao" navigable="true">
+      <modelElement href="analista-ejb.uml#_udmmwjGREeuZ4L32F0ni_w"/>
+      <visualProperties xmi:id="_u1woEjGREeuZ4L32F0ni_w" position="-45.717841886356254,-107.09809406040998"/>
+      <visibility xmi:id="_ulsy1zGREeuZ4L32F0ni_w" label="-"/>
+      <cardinality xmi:id="_ulsy1jGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ulq9oDGREeuZ4L32F0ni_w" source="_uluA8DGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_ueFH4TGREeuZ4L32F0ni_w"/>
+    <stereotypes xmi:id="_ulsy0zGREeuZ4L32F0ni_w" name="Reference">
+      <modelElement href="analista-ejb.uml#_ueIyQDGREeuZ4L32F0ni_w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ulsy0DGREeuZ4L32F0ni_w" text=""/>
+    <sourceRole xmi:id="_ulsy0TGREeuZ4L32F0ni_w" aggregationKind="NONE" name="">
+      <modelElement href="analista-ejb.uml#_ueFH4jGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_ultZ4TGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ultZ4DGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ulsy0jGREeuZ4L32F0ni_w" aggregationKind="NONE" name="em" navigable="true">
+      <modelElement href="analista-ejb.uml#_udl_sjGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_hdTjwDGSEeuZ4L32F0ni_w" name="Annotations"/>
+      <visibility xmi:id="_ultZ4zGREeuZ4L32F0ni_w" label="-"/>
+      <cardinality xmi:id="_ultZ4jGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ul0HkDGREeuZ4L32F0ni_w" sourceAnchor="152.0,0.0" targetAnchor="0.0,49.0" target="_ukqRADGREeuZ4L32F0ni_w" source="_ul5AEDGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_ueQuETGREeuZ4L32F0ni_w"/>
+    <bendpoints xmi:id="_u1p6YDGREeuZ4L32F0ni_w" sourceY="-105" targetX="-233"/>
+    <stereotypes xmi:id="_ul1VtDGREeuZ4L32F0ni_w" name="Reference">
+      <modelElement href="analista-ejb.uml#_ueU_gDGREeuZ4L32F0ni_w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ul1VsTGREeuZ4L32F0ni_w" text="">
+      <visualProperties xmi:id="_u1x2MTGREeuZ4L32F0ni_w" position="-27.058564519833453,-11.470178928626751"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ul1VsjGREeuZ4L32F0ni_w" aggregationKind="NONE" name="">
+      <modelElement href="analista-ejb.uml#_ueQuEjGREeuZ4L32F0ni_w"/>
+      <visualProperties xmi:id="_u1x2MDGREeuZ4L32F0ni_w" position="-19.014586980200647,-75.33160866049411"/>
+      <visibility xmi:id="_ul3x8TGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ul3x8DGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ul1VszGREeuZ4L32F0ni_w" aggregationKind="NONE" name="fichaDao" navigable="true">
+      <modelElement href="analista-ejb.uml#_udn04jGREeuZ4L32F0ni_w"/>
+      <visualProperties xmi:id="_u1x2MjGREeuZ4L32F0ni_w" position="-275.75524999301,-75.28012976162381"/>
+      <visibility xmi:id="_ul3x8zGREeuZ4L32F0ni_w" label="-"/>
+      <cardinality xmi:id="_ul3x8jGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ul1VsDGREeuZ4L32F0ni_w" source="_ul5AEDGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_ueNDsDGREeuZ4L32F0ni_w"/>
+    <stereotypes xmi:id="_ul3K4zGREeuZ4L32F0ni_w" name="Reference">
+      <modelElement href="analista-ejb.uml#_ueQuEDGREeuZ4L32F0ni_w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ul3K4DGREeuZ4L32F0ni_w" text=""/>
+    <sourceRole xmi:id="_ul3K4TGREeuZ4L32F0ni_w" aggregationKind="NONE" name="">
+      <modelElement href="analista-ejb.uml#_ueNDsTGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_ul3x9TGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ul3x9DGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ul3K4jGREeuZ4L32F0ni_w" aggregationKind="NONE" name="em" navigable="true">
+      <modelElement href="analista-ejb.uml#_udnN0DGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_hdS8sDGSEeuZ4L32F0ni_w" name="Annotations"/>
+      <visibility xmi:id="_ul4ZATGREeuZ4L32F0ni_w" label="-"/>
+      <cardinality xmi:id="_ul4ZADGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_umDYIDGREeuZ4L32F0ni_w" sourceAnchor="535.0,164.0" targetAnchor="197.0,118.0" target="_uk9zADGREeuZ4L32F0ni_w" source="_umKs4DGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_ueYp4TGREeuZ4L32F0ni_w"/>
+    <bendpoints xmi:id="_u1p6YTGREeuZ4L32F0ni_w" sourceX="623" targetY="219"/>
+    <stereotypes xmi:id="_umF0YjGREeuZ4L32F0ni_w" name="Reference">
+      <modelElement href="analista-ejb.uml#_uecUQDGREeuZ4L32F0ni_w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_umFNUTGREeuZ4L32F0ni_w" text="">
+      <visualProperties xmi:id="_u1zEUDGREeuZ4L32F0ni_w" position="-549.6318504705534,-15.623419265720713"/>
+    </nameVisual>
+    <sourceRole xmi:id="_umF0YDGREeuZ4L32F0ni_w" aggregationKind="NONE" name="">
+      <modelElement href="analista-ejb.uml#_ueYp4jGREeuZ4L32F0ni_w"/>
+      <visualProperties xmi:id="_u1ydQDGREeuZ4L32F0ni_w" position="46.15062533107624,-33.55035753197524"/>
+      <visibility xmi:id="_umIQpDGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_umIQozGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_umF0YTGREeuZ4L32F0ni_w" aggregationKind="NONE" name="procedimentoDao" navigable="true">
+      <modelElement href="analista-ejb.uml#_udpDADGREeuZ4L32F0ni_w"/>
+      <visualProperties xmi:id="_u1zEUTGREeuZ4L32F0ni_w" position="-554.1294239275356,186.27944192309633"/>
+      <visibility xmi:id="_umIQpjGREeuZ4L32F0ni_w" label="-"/>
+      <cardinality xmi:id="_umIQpTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_umD_MDGREeuZ4L32F0ni_w" sourceAnchor="535.0,134.0" targetAnchor="158.0,211.0" target="_uluA8DGREeuZ4L32F0ni_w" source="_umKs4DGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_uecUQTGREeuZ4L32F0ni_w"/>
+    <bendpoints xmi:id="_u1p6YjGREeuZ4L32F0ni_w" sourceX="360" targetY="401"/>
+    <stereotypes xmi:id="_umF0ZjGREeuZ4L32F0ni_w" name="Reference">
+      <modelElement href="analista-ejb.uml#_uefXkDGREeuZ4L32F0ni_w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_umF0YzGREeuZ4L32F0ni_w" text="">
+      <visualProperties xmi:id="_u105gDGREeuZ4L32F0ni_w" position="-250.26259975374649,-4.065005289496753"/>
+    </nameVisual>
+    <sourceRole xmi:id="_umF0ZDGREeuZ4L32F0ni_w" aggregationKind="NONE" name="">
+      <modelElement href="analista-ejb.uml#_uecUQjGREeuZ4L32F0ni_w"/>
+      <visualProperties xmi:id="_u1zrYDGREeuZ4L32F0ni_w" position="36.291036151335675,-13.288857139723973"/>
+      <visibility xmi:id="_umI3sTGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_umI3sDGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_umF0ZTGREeuZ4L32F0ni_w" aggregationKind="NONE" name="clienteBean" navigable="true">
+      <modelElement href="analista-ejb.uml#_udpDATGREeuZ4L32F0ni_w"/>
+      <visualProperties xmi:id="_u105gTGREeuZ4L32F0ni_w" position="-179.7634190409319,387.6675913573905"/>
+      <visibility xmi:id="_umI3szGREeuZ4L32F0ni_w" label="-"/>
+      <cardinality xmi:id="_umI3sjGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_umEmQDGREeuZ4L32F0ni_w" sourceAnchor="0.0,164.0" targetAnchor="152.0,230.0" target="_ul5AEDGREeuZ4L32F0ni_w" source="_umKs4DGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_uef-oDGREeuZ4L32F0ni_w"/>
+    <bendpoints xmi:id="_u1qhcDGREeuZ4L32F0ni_w" sourceX="-902" targetY="219"/>
+    <stereotypes xmi:id="_umF0ajGREeuZ4L32F0ni_w" name="Reference">
+      <modelElement href="analista-ejb.uml#_uejpADGREeuZ4L32F0ni_w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_umF0ZzGREeuZ4L32F0ni_w" text="">
+      <visualProperties xmi:id="_u12usDGREeuZ4L32F0ni_w" position="752.350890365843,-12.022930905923658"/>
+    </nameVisual>
+    <sourceRole xmi:id="_umF0aDGREeuZ4L32F0ni_w" aggregationKind="NONE" name="">
+      <modelElement href="analista-ejb.uml#_uef-oTGREeuZ4L32F0ni_w"/>
+      <visualProperties xmi:id="_u12HoDGREeuZ4L32F0ni_w" position="-49.586569519554246,-30.698821017422233"/>
+      <visibility xmi:id="_umI3tTGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_umI3tDGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_umF0aTGREeuZ4L32F0ni_w" aggregationKind="NONE" name="fichaBean" navigable="true">
+      <modelElement href="analista-ejb.uml#_udpqEDGREeuZ4L32F0ni_w"/>
+      <visualProperties xmi:id="_u12usTGREeuZ4L32F0ni_w" position="644.765419345317,188.29406195044453"/>
+      <visibility xmi:id="_umI3tzGREeuZ4L32F0ni_w" label="-"/>
+      <cardinality xmi:id="_umI3tjGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_umEmQTGREeuZ4L32F0ni_w" sourceAnchor="0.0,134.0" targetAnchor="266.0,99.0" target="_uk6IoDGREeuZ4L32F0ni_w" source="_umKs4DGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_uejpATGREeuZ4L32F0ni_w"/>
+    <bendpoints xmi:id="_u1rIgDGREeuZ4L32F0ni_w" sourceX="-399" targetY="189"/>
+    <stereotypes xmi:id="_umGbcDGREeuZ4L32F0ni_w" name="Reference">
+      <modelElement href="analista-ejb.uml#_uenTYDGREeuZ4L32F0ni_w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_umF0azGREeuZ4L32F0ni_w" text="">
+      <visualProperties xmi:id="_u1380TGREeuZ4L32F0ni_w" position="273.7612089272757,-0.9283106024287235"/>
+    </nameVisual>
+    <sourceRole xmi:id="_umF0bDGREeuZ4L32F0ni_w" aggregationKind="NONE" name="">
+      <modelElement href="analista-ejb.uml#_uejpAjGREeuZ4L32F0ni_w"/>
+      <visualProperties xmi:id="_u1380DGREeuZ4L32F0ni_w" position="-59.45728412697531,-11.05707091043746"/>
+      <visibility xmi:id="_umI3uTGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_umI3uDGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_umF0bTGREeuZ4L32F0ni_w" aggregationKind="NONE" name="marcarProcedimentoDao" navigable="true">
+      <modelElement href="analista-ejb.uml#_udpqETGREeuZ4L32F0ni_w"/>
+      <visualProperties xmi:id="_u14j4DGREeuZ4L32F0ni_w" position="170.5439718542525,177.43550956471722"/>
+      <visibility xmi:id="_umI3uzGREeuZ4L32F0ni_w" label="-"/>
+      <cardinality xmi:id="_umI3ujGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_umFNUDGREeuZ4L32F0ni_w" source="_umKs4DGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_ueU_gTGREeuZ4L32F0ni_w"/>
+    <stereotypes xmi:id="_umIQojGREeuZ4L32F0ni_w" name="Reference">
+      <modelElement href="analista-ejb.uml#_ueYp4DGREeuZ4L32F0ni_w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_umHpkDGREeuZ4L32F0ni_w" text=""/>
+    <sourceRole xmi:id="_umIQoDGREeuZ4L32F0ni_w" aggregationKind="NONE" name="">
+      <modelElement href="analista-ejb.uml#_ueU_gjGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_umJewTGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_umJewDGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_umIQoTGREeuZ4L32F0ni_w" aggregationKind="NONE" name="em" navigable="true">
+      <modelElement href="analista-ejb.uml#_udob8DGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_hdRukDGSEeuZ4L32F0ni_w" name="Annotations"/>
+      <visibility xmi:id="_umKF0TGREeuZ4L32F0ni_w" label="-"/>
+      <cardinality xmi:id="_umKF0DGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_umUd4DGREeuZ4L32F0ni_w" sourceAnchor="237.0,45.0" targetAnchor="128.0,211.0" target="_uluA8DGREeuZ4L32F0ni_w" source="_umW6IDGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_uen6cDGREeuZ4L32F0ni_w"/>
+    <bendpoints xmi:id="_u1rvkDGREeuZ4L32F0ni_w" sourceX="185" targetY="100"/>
+    <stereotypes xmi:id="_umVsADGREeuZ4L32F0ni_w" name="Reference">
+      <modelElement href="analista-ejb.uml#_uerk0DGREeuZ4L32F0ni_w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_umVE8DGREeuZ4L32F0ni_w" text="">
+      <visualProperties xmi:id="_u16ZEDGREeuZ4L32F0ni_w" position="-96.83955747326002,-4.25147084275045"/>
+    </nameVisual>
+    <sourceRole xmi:id="_umVE8TGREeuZ4L32F0ni_w" aggregationKind="NONE" name="">
+      <modelElement href="analista-ejb.uml#_uen6cTGREeuZ4L32F0ni_w"/>
+      <visualProperties xmi:id="_u15K8DGREeuZ4L32F0ni_w" position="35.656111965745936,-13.332121292250804"/>
+      <visibility xmi:id="_umWTETGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_umWTEDGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_umVE8jGREeuZ4L32F0ni_w" aggregationKind="NONE" name="clienteService" navigable="true">
+      <modelElement href="analista-ejb.uml#_udqRIDGREeuZ4L32F0ni_w"/>
+      <visualProperties xmi:id="_u16ZETGREeuZ4L32F0ni_w" position="-53.41587736176646,86.6678787077492"/>
+      <stereotypes xmi:id="_hdRHgDGSEeuZ4L32F0ni_w" name="Annotations"/>
+      <visibility xmi:id="_umWTEzGREeuZ4L32F0ni_w" label="-"/>
+      <cardinality xmi:id="_umWTEjGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ukkxcDGREeuZ4L32F0ni_w" name="ClienteDao" associationsIn="_ulqWkDGREeuZ4L32F0ni_w" generalizations="_ukt7YDGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_uU2TYDGREeuZ4L32F0ni_w"/>
+    <visualProperties xmi:id="_ukkxcTGREeuZ4L32F0ni_w" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ukkxcjGREeuZ4L32F0ni_w" label="+"/>
+    <attributes xmi:id="_ukkxczGREeuZ4L32F0ni_w" defaultValue="-3292145760973825744L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="analista-ejb.uml#_ucNfoDGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_ukkxdDGREeuZ4L32F0ni_w" label="-"/>
+      <cardinality xmi:id="_ukkxdTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ukkxdjGREeuZ4L32F0ni_w" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ukkxdzGREeuZ4L32F0ni_w" name="getAllClients">
+      <modelElement href="analista-ejb.uml#_uU7L4DGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_ukkxeDGREeuZ4L32F0ni_w" name="LegacyStyledElement">
+        <modelElement href="analista-ejb.uml#_uU7y8DGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ukkxeTGREeuZ4L32F0ni_w" name="Annotations">
+        <modelElement href="analista-ejb.uml#_uU8aADGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ukkxejGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ukkxezGREeuZ4L32F0ni_w" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_uklYgDGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_uU7L4TGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_uklYgTGREeuZ4L32F0ni_w" name="ClienteDto">
+          <modelElement href="analista-ejb.uml#_uVz8sDGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_uklYgjGREeuZ4L32F0ni_w" name="ClienteDao">
+      <modelElement href="analista-ejb.uml#_ubaOYDGREeuZ4L32F0ni_w"/>
+      <keywords xmi:id="_uklYgzGREeuZ4L32F0ni_w" keyword="create"/>
+      <visibility xmi:id="_uklYhDGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_uklYhTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uklYhjGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_uba1czGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_uklYhzGREeuZ4L32F0ni_w" name="ClienteDao">
+          <modelElement href="analista-ejb.uml#_uU2TYDGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_uklYiDGREeuZ4L32F0ni_w" name="em">
+        <modelElement href="analista-ejb.uml#_uba1cDGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_uklYiTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_uklYijGREeuZ4L32F0ni_w" name="EntityManager">
+          <modelElement href="analista-ejb.uml#_uYby4DGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_uklYizGREeuZ4L32F0ni_w" name="getClienteById">
+      <modelElement href="analista-ejb.uml#_ubft8TGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_uklYjDGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_uklYjTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uklYjjGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_ubft8zGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_uklYjzGREeuZ4L32F0ni_w" name="Cliente">
+          <modelElement href="analista-ejb.uml#_uVPU8DGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_uklYkDGREeuZ4L32F0ni_w" name="idCliente">
+        <modelElement href="analista-ejb.uml#_ubft8jGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_uklYkTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_uklYkjGREeuZ4L32F0ni_w" name="Long">
+          <modelElement href="analista-ejb.uml#_ubbcgTGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ukqRADGREeuZ4L32F0ni_w" name="FichaDao" associationsIn="_ul0HkDGREeuZ4L32F0ni_w" generalizations="_ukuicDGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_uU-2QDGREeuZ4L32F0ni_w"/>
+    <visualProperties xmi:id="_ukqRATGREeuZ4L32F0ni_w" position="-1604.0,242.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ukqRAjGREeuZ4L32F0ni_w" label="+"/>
+    <attributes xmi:id="_ukqRAzGREeuZ4L32F0ni_w" defaultValue="485700131912449354L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="analista-ejb.uml#_ucOGsTGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_ukqRBDGREeuZ4L32F0ni_w" label="-"/>
+      <cardinality xmi:id="_ukqRBTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ukqRBjGREeuZ4L32F0ni_w" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ukqRBzGREeuZ4L32F0ni_w" name="FichaDao">
+      <modelElement href="analista-ejb.uml#_ubgVADGREeuZ4L32F0ni_w"/>
+      <keywords xmi:id="_ukqRCDGREeuZ4L32F0ni_w" keyword="create"/>
+      <visibility xmi:id="_ukqRCTGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ukqRCjGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ukqRCzGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_ubgVBDGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_ukqRDDGREeuZ4L32F0ni_w" name="FichaDao">
+          <modelElement href="analista-ejb.uml#_uU-2QDGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ukqRDTGREeuZ4L32F0ni_w" name="em">
+        <modelElement href="analista-ejb.uml#_ubgVATGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_ukqRDjGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_ukqRDzGREeuZ4L32F0ni_w" name="EntityManager">
+          <modelElement href="analista-ejb.uml#_uYby4DGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ukqREDGREeuZ4L32F0ni_w" name="getFichaByIdCliente">
+      <modelElement href="analista-ejb.uml#_ubg8EDGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_ukqRETGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ukqREjGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ukqREzGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_ubg8EjGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_ukqRFDGREeuZ4L32F0ni_w" name="Ficha">
+          <modelElement href="analista-ejb.uml#_uVYe4DGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ukqRFTGREeuZ4L32F0ni_w" name="idCliente">
+        <modelElement href="analista-ejb.uml#_ubg8ETGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_ukqRFjGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_ukqRFzGREeuZ4L32F0ni_w" name="Long">
+          <modelElement href="analista-ejb.uml#_ubbcgTGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ukxlwDGREeuZ4L32F0ni_w" name="GenericDao" abstractClass="true" associationsOut="_ukuicTGREeuZ4L32F0ni_w" subclassedBy="_ukt7YDGREeuZ4L32F0ni_w _ukuicDGREeuZ4L32F0ni_w _uk4TcDGREeuZ4L32F0ni_w _uk8k4DGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_uVBSgDGREeuZ4L32F0ni_w"/>
+    <visualProperties xmi:id="_ukxlwTGREeuZ4L32F0ni_w" position="-1214.0,-217.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_ukxlwjGREeuZ4L32F0ni_w" name="Generics">
+      <modelElement href="analista-ejb.uml#_uVCgoDGREeuZ4L32F0ni_w"/>
+    </stereotypes>
+    <visibility xmi:id="_ukxlwzGREeuZ4L32F0ni_w" label="+"/>
+    <attributes xmi:id="_ukxlxDGREeuZ4L32F0ni_w" defaultValue="4914862234404079491L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="analista-ejb.uml#_ucOtwTGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_ukxlxTGREeuZ4L32F0ni_w" label="-"/>
+      <cardinality xmi:id="_ukxlxjGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ukxlxzGREeuZ4L32F0ni_w" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ukxlyDGREeuZ4L32F0ni_w" name="em">
+      <modelElement href="analista-ejb.uml#_ucPU0DGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_ukxlyTGREeuZ4L32F0ni_w" name="LegacyStyledElement">
+        <modelElement href="analista-ejb.uml#_ucPU0TGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ukxlyjGREeuZ4L32F0ni_w" name="Annotations">
+        <modelElement href="analista-ejb.uml#_ucPU0jGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ukxlyzGREeuZ4L32F0ni_w" label="#"/>
+      <cardinality xmi:id="_ukxlzDGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ukxlzTGREeuZ4L32F0ni_w" name="EntityManager">
+        <modelElement href="analista-ejb.uml#_uYby4DGREeuZ4L32F0ni_w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ukxlzjGREeuZ4L32F0ni_w" name="GenericDao">
+      <modelElement href="analista-ejb.uml#_ubiKMDGREeuZ4L32F0ni_w"/>
+      <keywords xmi:id="_ukxlzzGREeuZ4L32F0ni_w" keyword="create"/>
+      <visibility xmi:id="_ukxl0DGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ukxl0TGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ukxl0jGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_ubiKNDGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_ukxl0zGREeuZ4L32F0ni_w" name="GenericDao">
+          <modelElement href="analista-ejb.uml#_uVBSgDGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ukxl1DGREeuZ4L32F0ni_w" name="em">
+        <modelElement href="analista-ejb.uml#_ubiKMTGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_ukxl1TGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_ukxl1jGREeuZ4L32F0ni_w" name="EntityManager">
+          <modelElement href="analista-ejb.uml#_uYby4DGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ukxl1zGREeuZ4L32F0ni_w" name="create">
+      <modelElement href="analista-ejb.uml#_ubnCsTGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_ukxl2DGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ukxl2TGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ukxl2jGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_ubnpwDGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_ukxl2zGREeuZ4L32F0ni_w" name="T">
+          <modelElement href="analista-ejb.uml#_ubixQDGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ukxl3DGREeuZ4L32F0ni_w" name="t">
+        <modelElement href="analista-ejb.uml#_ubnCsjGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_ukxl3TGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_ukxl3jGREeuZ4L32F0ni_w" name="T">
+          <modelElement href="analista-ejb.uml#_ubixQDGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ukxl3zGREeuZ4L32F0ni_w" name="update">
+      <modelElement href="analista-ejb.uml#_ubnpwTGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_ukxl4DGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ukxl4TGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ukxl4jGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_uboQ0DGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_ukxl4zGREeuZ4L32F0ni_w" name="T">
+          <modelElement href="analista-ejb.uml#_ubixQDGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ukxl5DGREeuZ4L32F0ni_w" name="t">
+        <modelElement href="analista-ejb.uml#_ubnpwjGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_ukxl5TGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_ukxl5jGREeuZ4L32F0ni_w" name="T">
+          <modelElement href="analista-ejb.uml#_ubixQDGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ukxl5zGREeuZ4L32F0ni_w" name="delete">
+      <modelElement href="analista-ejb.uml#_uboQ0TGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_ukxl6DGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ukxl6TGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ukxl6jGREeuZ4L32F0ni_w" name="t">
+        <modelElement href="analista-ejb.uml#_uboQ0jGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_ukxl6zGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_ukxl7DGREeuZ4L32F0ni_w" name="T">
+          <modelElement href="analista-ejb.uml#_ubixQDGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ukxl7TGREeuZ4L32F0ni_w" name="getById">
+      <modelElement href="analista-ejb.uml#_ubsiQTGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_ukxl7jGREeuZ4L32F0ni_w" name="LegacyStyledElement">
+        <modelElement href="analista-ejb.uml#_ubtJUTGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ukxl7zGREeuZ4L32F0ni_w" name="Annotations">
+        <modelElement href="analista-ejb.uml#_ubtwYDGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ukxl8DGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ukxl8TGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ukxl8jGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_ubtJUDGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_ukxl8zGREeuZ4L32F0ni_w" name="T">
+          <modelElement href="analista-ejb.uml#_ubixQDGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ukxl9DGREeuZ4L32F0ni_w" name="klass">
+        <modelElement href="analista-ejb.uml#_ubsiQjGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_ukxl9TGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_ukxl9jGREeuZ4L32F0ni_w" name="Class">
+          <modelElement href="analista-ejb.uml#_ubo34DGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ukxl9zGREeuZ4L32F0ni_w" name="id">
+        <modelElement href="analista-ejb.uml#_ubsiQzGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_ukxl-DGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_ukxl-TGREeuZ4L32F0ni_w" name="Long">
+          <modelElement href="analista-ejb.uml#_ubbcgTGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_uk6IoDGREeuZ4L32F0ni_w" name="MarcarProcedimentoDao" associationsIn="_umEmQTGREeuZ4L32F0ni_w" generalizations="_uk4TcDGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_uVGyEDGREeuZ4L32F0ni_w"/>
+    <visualProperties xmi:id="_uk6IoTGREeuZ4L32F0ni_w" position="-1600.0,527.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_uk6IojGREeuZ4L32F0ni_w" label="+"/>
+    <attributes xmi:id="_uk6IozGREeuZ4L32F0ni_w" defaultValue="-4631406291054126966L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="analista-ejb.uml#_ucP74TGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_uk6IpDGREeuZ4L32F0ni_w" label="-"/>
+      <cardinality xmi:id="_uk6IpTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_uk6IpjGREeuZ4L32F0ni_w" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_uk6IpzGREeuZ4L32F0ni_w" name="MarcarProcedimentoDao">
+      <modelElement href="analista-ejb.uml#_ubuXcDGREeuZ4L32F0ni_w"/>
+      <keywords xmi:id="_uk6IqDGREeuZ4L32F0ni_w" keyword="create"/>
+      <visibility xmi:id="_uk6IqTGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_uk6IqjGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uk6IqzGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_ubu-gDGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_uk6IrDGREeuZ4L32F0ni_w" name="MarcarProcedimentoDao">
+          <modelElement href="analista-ejb.uml#_uVGyEDGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_uk6IrTGREeuZ4L32F0ni_w" name="em">
+        <modelElement href="analista-ejb.uml#_ubuXcTGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_uk6IrjGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_uk6IrzGREeuZ4L32F0ni_w" name="EntityManager">
+          <modelElement href="analista-ejb.uml#_uYby4DGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_uk6IsDGREeuZ4L32F0ni_w" name="procedimentosRealizadosPorFicha">
+      <modelElement href="analista-ejb.uml#_ubu-gTGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_uk6IsTGREeuZ4L32F0ni_w" name="LegacyStyledElement">
+        <modelElement href="analista-ejb.uml#_ubvlkzGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_uk6IsjGREeuZ4L32F0ni_w" name="Annotations">
+        <modelElement href="analista-ejb.uml#_ubwMoDGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_uk6IszGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_uk6ItDGREeuZ4L32F0ni_w" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_uk6ItTGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_ubvlkTGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_uk6ItjGREeuZ4L32F0ni_w" name="ProcedimentoRealizadoDto">
+          <modelElement href="analista-ejb.uml#_uV5cQDGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_uk6ItzGREeuZ4L32F0ni_w" name="idFicha">
+        <modelElement href="analista-ejb.uml#_ubvlkDGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_uk6IuDGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_uk6IuTGREeuZ4L32F0ni_w" name="Long">
+          <modelElement href="analista-ejb.uml#_ubbcgTGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_uk9zADGREeuZ4L32F0ni_w" name="ProcedimentoDao" associationsIn="_umDYIDGREeuZ4L32F0ni_w" generalizations="_uk8k4DGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_uVJOUDGREeuZ4L32F0ni_w"/>
+    <visualProperties xmi:id="_uk9zATGREeuZ4L32F0ni_w" position="26.0,508.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_uk9zAjGREeuZ4L32F0ni_w" label="+"/>
+    <attributes xmi:id="_uk9zAzGREeuZ4L32F0ni_w" defaultValue="-5925388132782236013L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="analista-ejb.uml#_ucQi8DGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_uk9zBDGREeuZ4L32F0ni_w" label="-"/>
+      <cardinality xmi:id="_uk9zBTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_uk9zBjGREeuZ4L32F0ni_w" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_uk9zBzGREeuZ4L32F0ni_w" name="getAll">
+      <modelElement href="analista-ejb.uml#_uVJ1YDGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_uk9zCDGREeuZ4L32F0ni_w" name="LegacyStyledElement">
+        <modelElement href="analista-ejb.uml#_uVKccjGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_uk9zCTGREeuZ4L32F0ni_w" name="Annotations">
+        <modelElement href="analista-ejb.uml#_uVLDgDGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_uk9zCjGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_uk9zCzGREeuZ4L32F0ni_w" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_uk9zDDGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_uVKccDGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_uk9zDTGREeuZ4L32F0ni_w" name="ProcedimentoDto">
+          <modelElement href="analista-ejb.uml#_uV3AADGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_uk9zDjGREeuZ4L32F0ni_w" name="marcarProcedimento">
+      <modelElement href="analista-ejb.uml#_uZF6MDGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_uk9zDzGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_uk9zEDGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uk9zETGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_uZF6MjGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_uk9zEjGREeuZ4L32F0ni_w" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_uk9zEzGREeuZ4L32F0ni_w" name="mp">
+        <modelElement href="analista-ejb.uml#_uZF6MTGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_uk9zFDGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_uk9zFTGREeuZ4L32F0ni_w" name="MarcacaoProcedimento">
+          <modelElement href="analista-ejb.uml#_uViP4DGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_uk9zFjGREeuZ4L32F0ni_w" name="ProcedimentoDao">
+      <modelElement href="analista-ejb.uml#_ubwzsDGREeuZ4L32F0ni_w"/>
+      <keywords xmi:id="_uk9zFzGREeuZ4L32F0ni_w" keyword="create"/>
+      <visibility xmi:id="_uk9zGDGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_uk9zGTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uk9zGjGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_ubwztDGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_uk9zGzGREeuZ4L32F0ni_w" name="ProcedimentoDao">
+          <modelElement href="analista-ejb.uml#_uVJOUDGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_uk9zHDGREeuZ4L32F0ni_w" name="em">
+        <modelElement href="analista-ejb.uml#_ubwzsTGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_uk9zHTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_uk9zHjGREeuZ4L32F0ni_w" name="EntityManager">
+          <modelElement href="analista-ejb.uml#_uYby4DGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_ulBdYDGREeuZ4L32F0ni_w" name="PlanoEnum">
+    <modelElement href="analista-ejb.uml#_uVMRoDGREeuZ4L32F0ni_w"/>
+    <visualProperties xmi:id="_ulBdYTGREeuZ4L32F0ni_w" position="-816.0,-191.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ulBdYjGREeuZ4L32F0ni_w" label="+"/>
+    <attributes xmi:id="_ulBdYzGREeuZ4L32F0ni_w" name="descricao">
+      <modelElement href="analista-ejb.uml#_ucU0YDGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_ulBdZDGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulBdZTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ulBdZjGREeuZ4L32F0ni_w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ulBdZzGREeuZ4L32F0ni_w" name="PlanoEnum">
+      <modelElement href="analista-ejb.uml#_uVOG0DGREeuZ4L32F0ni_w"/>
+      <keywords xmi:id="_ulBdaDGREeuZ4L32F0ni_w" keyword="create"/>
+      <visibility xmi:id="_ulBdaTGREeuZ4L32F0ni_w" label="-"/>
+      <cardinality xmi:id="_ulBdajGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ulBdazGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_uVOt4jGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_ulBdbDGREeuZ4L32F0ni_w" name="PlanoEnum">
+          <modelElement href="analista-ejb.uml#_uVMRoDGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ulBdbTGREeuZ4L32F0ni_w" name="descricao">
+        <modelElement href="analista-ejb.uml#_uVOG0TGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_ulBdbjGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_ulBdbzGREeuZ4L32F0ni_w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <literals xmi:id="_ulBdcDGREeuZ4L32F0ni_w" name="STARTER">
+      <modelElement href="analista-ejb.uml#_uVM4sDGREeuZ4L32F0ni_w"/>
+    </literals>
+    <literals xmi:id="_ulBdcTGREeuZ4L32F0ni_w" name="ESSENTIALS">
+      <modelElement href="analista-ejb.uml#_uVNfwDGREeuZ4L32F0ni_w"/>
+    </literals>
+    <literals xmi:id="_ulBdcjGREeuZ4L32F0ni_w" name="TOP">
+      <modelElement href="analista-ejb.uml#_uVNfwjGREeuZ4L32F0ni_w"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ulHkADGREeuZ4L32F0ni_w" name="Cliente" associationsOut="_ulFHwDGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_uVPU8DGREeuZ4L32F0ni_w"/>
+    <visualProperties xmi:id="_ulHkATGREeuZ4L32F0ni_w" position="-244.0,-110.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_ulHkAjGREeuZ4L32F0ni_w" name="Table">
+      <modelElement href="analista-ejb.uml#_uVRxMDGREeuZ4L32F0ni_w"/>
+    </stereotypes>
+    <stereotypes xmi:id="_ulHkAzGREeuZ4L32F0ni_w" name="JPA1StyledElement">
+      <modelElement href="analista-ejb.uml#_uVSYQDGREeuZ4L32F0ni_w"/>
+    </stereotypes>
+    <visibility xmi:id="_ulHkBDGREeuZ4L32F0ni_w" label="+"/>
+    <attributes xmi:id="_ulHkBTGREeuZ4L32F0ni_w" name="id">
+      <modelElement href="analista-ejb.uml#_ucVbcDGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_ulHkBjGREeuZ4L32F0ni_w" name="PrimaryKey">
+        <modelElement href="analista-ejb.uml#_ucVbcTGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ulHkBzGREeuZ4L32F0ni_w" name="GeneratedValueMapping">
+        <modelElement href="analista-ejb.uml#_ucVbcjGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ulHkCDGREeuZ4L32F0ni_w" name="Column">
+        <modelElement href="analista-ejb.uml#_ucZs4DGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ulHkCTGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulHkCjGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ulHkCzGREeuZ4L32F0ni_w" name="Long">
+        <modelElement href="analista-ejb.uml#_ubbcgTGREeuZ4L32F0ni_w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ulHkDDGREeuZ4L32F0ni_w" name="nome">
+      <modelElement href="analista-ejb.uml#_ucaT8DGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_ulHkDTGREeuZ4L32F0ni_w" name="Column">
+        <modelElement href="analista-ejb.uml#_ucfzgDGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ulHkDjGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulHkDzGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ulHkEDGREeuZ4L32F0ni_w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ulHkETGREeuZ4L32F0ni_w" name="cpf">
+      <modelElement href="analista-ejb.uml#_ucgakDGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_ulHkEjGREeuZ4L32F0ni_w" name="Column">
+        <modelElement href="analista-ejb.uml#_ucksADGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ulHkEzGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulHkFDGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ulHkFTGREeuZ4L32F0ni_w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ulHkFjGREeuZ4L32F0ni_w" name="dataNascimento">
+      <modelElement href="analista-ejb.uml#_uclTEDGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_ulHkFzGREeuZ4L32F0ni_w" name="Column">
+        <modelElement href="analista-ejb.uml#_ucpkgDGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ulHkGDGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulHkGTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ulHkGjGREeuZ4L32F0ni_w" name="Date">
+        <modelElement href="analista-ejb.uml#_uYT3ETGREeuZ4L32F0ni_w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ulHkGzGREeuZ4L32F0ni_w" name="sexo">
+      <modelElement href="analista-ejb.uml#_ucqLkDGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_ulHkHDGREeuZ4L32F0ni_w" name="Column">
+        <modelElement href="analista-ejb.uml#_ucudADGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ulHkHTGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulHkHjGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ulHkHzGREeuZ4L32F0ni_w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ulHkIDGREeuZ4L32F0ni_w" name="telefone">
+      <modelElement href="analista-ejb.uml#_ucvEEDGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_ulHkITGREeuZ4L32F0ni_w" name="Column">
+        <modelElement href="analista-ejb.uml#_uczVgDGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ulHkIjGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulHkIzGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ulHkJDGREeuZ4L32F0ni_w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ulHkJTGREeuZ4L32F0ni_w" name="email">
+      <modelElement href="analista-ejb.uml#_ucz8kDGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_ulHkJjGREeuZ4L32F0ni_w" name="Column">
+        <modelElement href="analista-ejb.uml#_uc2_4DGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ulHkJzGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulHkKDGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ulHkKTGREeuZ4L32F0ni_w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ulHkKjGREeuZ4L32F0ni_w" name="plano">
+      <modelElement href="analista-ejb.uml#_uc3m8DGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_ulHkKzGREeuZ4L32F0ni_w" name="Column">
+        <modelElement href="analista-ejb.uml#_uc74YDGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ulHkLDGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulHkLTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ulHkLjGREeuZ4L32F0ni_w" name="PlanoEnum">
+        <modelElement href="analista-ejb.uml#_uVMRoDGREeuZ4L32F0ni_w"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ulPf0TGREeuZ4L32F0ni_w" name="Ficha" associationsIn="_ulFHwDGREeuZ4L32F0ni_w _ulNqoDGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_uVYe4DGREeuZ4L32F0ni_w"/>
+    <visualProperties xmi:id="_ulPf0jGREeuZ4L32F0ni_w" position="10.0,-170.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_ulPf0zGREeuZ4L32F0ni_w" name="Table">
+      <modelElement href="analista-ejb.uml#_uVelgDGREeuZ4L32F0ni_w"/>
+    </stereotypes>
+    <stereotypes xmi:id="_ulPf1DGREeuZ4L32F0ni_w" name="JPA1StyledElement">
+      <modelElement href="analista-ejb.uml#_uVfMkDGREeuZ4L32F0ni_w"/>
+    </stereotypes>
+    <visibility xmi:id="_ulPf1TGREeuZ4L32F0ni_w" label="+"/>
+    <attributes xmi:id="_ulPf1jGREeuZ4L32F0ni_w" name="id">
+      <modelElement href="analista-ejb.uml#_uc8fcDGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_ulPf1zGREeuZ4L32F0ni_w" name="PrimaryKey">
+        <modelElement href="analista-ejb.uml#_uc9GgDGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ulPf2DGREeuZ4L32F0ni_w" name="GeneratedValueMapping">
+        <modelElement href="analista-ejb.uml#_uc9GgTGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ulPf2TGREeuZ4L32F0ni_w" name="Column">
+        <modelElement href="analista-ejb.uml#_udAw4DGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ulPf2jGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulPf2zGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ulPf3DGREeuZ4L32F0ni_w" name="Long">
+        <modelElement href="analista-ejb.uml#_ubbcgTGREeuZ4L32F0ni_w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ulPf3TGREeuZ4L32F0ni_w" name="cliente">
+      <modelElement href="analista-ejb.uml#_udB_ADGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_hdNdIDGSEeuZ4L32F0ni_w" name="JoinColumns"/>
+      <visibility xmi:id="_ulPf3jGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulPf3zGREeuZ4L32F0ni_w" label="0..1" max="1"/>
+      <type xmi:id="_ulPf4DGREeuZ4L32F0ni_w" name="Cliente">
+        <modelElement href="analista-ejb.uml#_uVPU8DGREeuZ4L32F0ni_w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ulPf4TGREeuZ4L32F0ni_w" name="dataCriacao">
+      <modelElement href="analista-ejb.uml#_udCmEDGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_ulPf4jGREeuZ4L32F0ni_w" name="Column">
+        <modelElement href="analista-ejb.uml#_udG3gDGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ulPf4zGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulPf5DGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ulPf5TGREeuZ4L32F0ni_w" name="Date">
+        <modelElement href="analista-ejb.uml#_uYT3ETGREeuZ4L32F0ni_w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ulPf5jGREeuZ4L32F0ni_w" name="procedimentosRealizados">
+      <modelElement href="analista-ejb.uml#_udHekDGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_ulPf5zGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulPf6DGREeuZ4L32F0ni_w" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_ulPf6TGREeuZ4L32F0ni_w" name="MarcacaoProcedimento">
+        <modelElement href="analista-ejb.uml#_uViP4DGREeuZ4L32F0ni_w"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ulVmeDGREeuZ4L32F0ni_w" name="MarcacaoProcedimento" associationsIn="_ulVmcDGREeuZ4L32F0ni_w" associationsOut="_ulNqoDGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_uViP4DGREeuZ4L32F0ni_w"/>
+    <visualProperties xmi:id="_ulVmeTGREeuZ4L32F0ni_w" position="-509.0,115.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_ulVmejGREeuZ4L32F0ni_w" name="Table">
+      <modelElement href="analista-ejb.uml#_uVnvcDGREeuZ4L32F0ni_w"/>
+    </stereotypes>
+    <stereotypes xmi:id="_ulVmezGREeuZ4L32F0ni_w" name="JPA1StyledElement">
+      <modelElement href="analista-ejb.uml#_uVnvcTGREeuZ4L32F0ni_w"/>
+    </stereotypes>
+    <visibility xmi:id="_ulVmfDGREeuZ4L32F0ni_w" label="+"/>
+    <attributes xmi:id="_ulVmfTGREeuZ4L32F0ni_w" name="ficha">
+      <modelElement href="analista-ejb.uml#_udIFoDGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_hdMPADGSEeuZ4L32F0ni_w" name="JoinColumns"/>
+      <visibility xmi:id="_ulVmfjGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulVmfzGREeuZ4L32F0ni_w" label="0..1" max="1"/>
+      <type xmi:id="_ulVmgDGREeuZ4L32F0ni_w" name="Ficha">
+        <modelElement href="analista-ejb.uml#_uVYe4DGREeuZ4L32F0ni_w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ulVmgTGREeuZ4L32F0ni_w" name="id">
+      <modelElement href="analista-ejb.uml#_udIssDGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_ulVmgjGREeuZ4L32F0ni_w" name="PrimaryKey">
+        <modelElement href="analista-ejb.uml#_udIssTGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ulVmgzGREeuZ4L32F0ni_w" name="GeneratedValueMapping">
+        <modelElement href="analista-ejb.uml#_udJTwDGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ulVmhDGREeuZ4L32F0ni_w" name="Column">
+        <modelElement href="analista-ejb.uml#_udM-IDGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ulVmhTGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulVmhjGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ulVmhzGREeuZ4L32F0ni_w" name="Long">
+        <modelElement href="analista-ejb.uml#_ubbcgTGREeuZ4L32F0ni_w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ulVmiDGREeuZ4L32F0ni_w" name="procedimento">
+      <modelElement href="analista-ejb.uml#_udOMQjGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_ulVmiTGREeuZ4L32F0ni_w" name="JoinColumns">
+        <modelElement href="analista-ejb.uml#_udOzUDGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ulVmijGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulVmizGREeuZ4L32F0ni_w" label="0..1" max="1"/>
+      <type xmi:id="_ulVmjDGREeuZ4L32F0ni_w" name="Procedimento">
+        <modelElement href="analista-ejb.uml#_uVrZ0DGREeuZ4L32F0ni_w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ulVmjTGREeuZ4L32F0ni_w" name="dataInclusao">
+      <modelElement href="analista-ejb.uml#_udOzUjGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_ulVmjjGREeuZ4L32F0ni_w" name="Column">
+        <modelElement href="analista-ejb.uml#_udTEwDGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ulVmjzGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulVmkDGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ulVmkTGREeuZ4L32F0ni_w" name="Date">
+        <modelElement href="analista-ejb.uml#_uYT3ETGREeuZ4L32F0ni_w"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ulZ34DGREeuZ4L32F0ni_w" name="Procedimento" associationsOut="_ulVmcDGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_uVrZ0DGREeuZ4L32F0ni_w"/>
+    <visualProperties xmi:id="_ulZ34TGREeuZ4L32F0ni_w" position="-756.0,260.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_ulZ34jGREeuZ4L32F0ni_w" name="Table">
+      <modelElement href="analista-ejb.uml#_uVw5YDGREeuZ4L32F0ni_w"/>
+    </stereotypes>
+    <stereotypes xmi:id="_ulZ34zGREeuZ4L32F0ni_w" name="JPA1StyledElement">
+      <modelElement href="analista-ejb.uml#_uVxgcDGREeuZ4L32F0ni_w"/>
+    </stereotypes>
+    <visibility xmi:id="_ulZ35DGREeuZ4L32F0ni_w" label="+"/>
+    <attributes xmi:id="_ulZ35TGREeuZ4L32F0ni_w" name="id">
+      <modelElement href="analista-ejb.uml#_udUS4DGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_ulZ35jGREeuZ4L32F0ni_w" name="PrimaryKey">
+        <modelElement href="analista-ejb.uml#_udUS4TGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ulZ35zGREeuZ4L32F0ni_w" name="GeneratedValueMapping">
+        <modelElement href="analista-ejb.uml#_udUS4jGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ulZ36DGREeuZ4L32F0ni_w" name="Column">
+        <modelElement href="analista-ejb.uml#_udYkUDGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ulZ36TGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulZ36jGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ulZ36zGREeuZ4L32F0ni_w" name="Long">
+        <modelElement href="analista-ejb.uml#_ubbcgTGREeuZ4L32F0ni_w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ulZ37DGREeuZ4L32F0ni_w" name="nome">
+      <modelElement href="analista-ejb.uml#_udZLYDGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_ulZ37TGREeuZ4L32F0ni_w" name="Column">
+        <modelElement href="analista-ejb.uml#_udc1wDGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ulZ37jGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulZ37zGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ulZ38DGREeuZ4L32F0ni_w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ulZ38TGREeuZ4L32F0ni_w" name="plano">
+      <modelElement href="analista-ejb.uml#_uddc0DGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_ulZ38jGREeuZ4L32F0ni_w" name="Column">
+        <modelElement href="analista-ejb.uml#_udhuQDGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ulZ38zGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulZ39DGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ulZ39TGREeuZ4L32F0ni_w" name="PlanoEnum">
+        <modelElement href="analista-ejb.uml#_uVMRoDGREeuZ4L32F0ni_w"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ulewYDGREeuZ4L32F0ni_w" name="ClienteDto">
+    <modelElement href="analista-ejb.uml#_uVz8sDGREeuZ4L32F0ni_w"/>
+    <visualProperties xmi:id="_ulewYTGREeuZ4L32F0ni_w" position="-1117.0,147.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ulewYjGREeuZ4L32F0ni_w" label="+"/>
+    <attributes xmi:id="_ulewYzGREeuZ4L32F0ni_w" name="id">
+      <modelElement href="analista-ejb.uml#_udi8YDGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_ulewZDGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulewZTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ulewZjGREeuZ4L32F0ni_w" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ulewZzGREeuZ4L32F0ni_w" name="nome">
+      <modelElement href="analista-ejb.uml#_udi8YTGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_ulewaDGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulewaTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ulewajGREeuZ4L32F0ni_w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ulewazGREeuZ4L32F0ni_w" name="cpf">
+      <modelElement href="analista-ejb.uml#_udjjcDGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_ulewbDGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulewbTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ulewbjGREeuZ4L32F0ni_w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ulewbzGREeuZ4L32F0ni_w" name="dataNascimento">
+      <modelElement href="analista-ejb.uml#_udjjcTGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_ulewcDGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulewcTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ulewcjGREeuZ4L32F0ni_w" name="Long">
+        <modelElement href="analista-ejb.uml#_ubbcgTGREeuZ4L32F0ni_w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ulewczGREeuZ4L32F0ni_w" name="sexo">
+      <modelElement href="analista-ejb.uml#_udkKgDGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_ulewdDGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulewdTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ulewdjGREeuZ4L32F0ni_w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ulewdzGREeuZ4L32F0ni_w" name="telefone">
+      <modelElement href="analista-ejb.uml#_udkKgTGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_uleweDGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_uleweTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ulewejGREeuZ4L32F0ni_w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ulewezGREeuZ4L32F0ni_w" name="email">
+      <modelElement href="analista-ejb.uml#_udkKgjGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_ulewfDGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulewfTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ulewfjGREeuZ4L32F0ni_w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ulewfzGREeuZ4L32F0ni_w" name="plano">
+      <modelElement href="analista-ejb.uml#_udkxkDGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_ulewgDGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulewgTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ulewgjGREeuZ4L32F0ni_w" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ulewgzGREeuZ4L32F0ni_w" name="setId">
+      <modelElement href="analista-ejb.uml#_ub7y0DGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_ulfXcDGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulfXcTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ulfXcjGREeuZ4L32F0ni_w" name="id">
+        <modelElement href="analista-ejb.uml#_ub7y0TGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_ulfXczGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_ulfXdDGREeuZ4L32F0ni_w" name="BigInteger">
+          <modelElement href="analista-ejb.uml#_uYKtIDGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ulfXdTGREeuZ4L32F0ni_w" name="setDataNascimento">
+      <modelElement href="analista-ejb.uml#_ub8Z4DGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_ulfXdjGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulfXdzGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ulfXeDGREeuZ4L32F0ni_w" name="dataNascimento">
+        <modelElement href="analista-ejb.uml#_ub8Z4TGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_ulfXeTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_ulfXejGREeuZ4L32F0ni_w" name="Date">
+          <modelElement href="analista-ejb.uml#_uYT3ETGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ulkP8DGREeuZ4L32F0ni_w" name="ProcedimentoDto">
+    <modelElement href="analista-ejb.uml#_uV3AADGREeuZ4L32F0ni_w"/>
+    <visualProperties xmi:id="_ulkP8TGREeuZ4L32F0ni_w" position="-766.0,454.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ulkP8jGREeuZ4L32F0ni_w" label="+"/>
+    <attributes xmi:id="_ulkP8zGREeuZ4L32F0ni_w" name="id">
+      <modelElement href="analista-ejb.uml#_udkxkTGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_ulkP9DGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulkP9TGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ulkP9jGREeuZ4L32F0ni_w" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ulkP9zGREeuZ4L32F0ni_w" name="nome">
+      <modelElement href="analista-ejb.uml#_udlYoDGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_ulkP-DGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulkP-TGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ulkP-jGREeuZ4L32F0ni_w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ulkP-zGREeuZ4L32F0ni_w" name="plano">
+      <modelElement href="analista-ejb.uml#_udlYoTGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_ulkP_DGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulkP_TGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ulkP_jGREeuZ4L32F0ni_w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ulkP_zGREeuZ4L32F0ni_w" name="setPlano">
+      <modelElement href="analista-ejb.uml#_uV4OIDGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_ulkQADGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulkQATGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ulkQAjGREeuZ4L32F0ni_w" name="plano">
+        <modelElement href="analista-ejb.uml#_uV4OITGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_ulkQAzGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_ulkQBDGREeuZ4L32F0ni_w" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ulkQBTGREeuZ4L32F0ni_w" name="setId">
+      <modelElement href="analista-ejb.uml#_ub9oADGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_ulkQBjGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ulkQBzGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ulkQCDGREeuZ4L32F0ni_w" name="id">
+        <modelElement href="analista-ejb.uml#_ub9oATGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_ulkQCTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_ulkQCjGREeuZ4L32F0ni_w" name="BigInteger">
+          <modelElement href="analista-ejb.uml#_uYKtIDGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_uln6UDGREeuZ4L32F0ni_w" name="ProcedimentoRealizadoDto">
+    <modelElement href="analista-ejb.uml#_uV5cQDGREeuZ4L32F0ni_w"/>
+    <visualProperties xmi:id="_uln6UTGREeuZ4L32F0ni_w" position="-511.0,294.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_uln6UjGREeuZ4L32F0ni_w" label="+"/>
+    <attributes xmi:id="_uln6UzGREeuZ4L32F0ni_w" name="nome">
+      <modelElement href="analista-ejb.uml#_udl_sDGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_uln6VDGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_uln6VTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_uln6VjGREeuZ4L32F0ni_w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_uln6VzGREeuZ4L32F0ni_w" name="dataInclusao">
+      <modelElement href="analista-ejb.uml#_udl_sTGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_uln6WDGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_uln6WTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_uln6WjGREeuZ4L32F0ni_w" name="Long">
+        <modelElement href="analista-ejb.uml#_ubbcgTGREeuZ4L32F0ni_w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_uln6WzGREeuZ4L32F0ni_w" name="setDataInclusao">
+      <modelElement href="analista-ejb.uml#_ub-PEDGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_uln6XDGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_uln6XTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_uln6XjGREeuZ4L32F0ni_w" name="dataInclusao">
+        <modelElement href="analista-ejb.uml#_ub-PETGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_uln6XzGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_uln6YDGREeuZ4L32F0ni_w" name="Date">
+          <modelElement href="analista-ejb.uml#_uYT3ETGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_uluA8DGREeuZ4L32F0ni_w" name="ClienteBean" associationsIn="_umD_MDGREeuZ4L32F0ni_w _umUd4DGREeuZ4L32F0ni_w" associationsOut="_ulqWkDGREeuZ4L32F0ni_w _ulq9oDGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_uV7RcDGREeuZ4L32F0ni_w"/>
+    <visualProperties xmi:id="_uluA8TGREeuZ4L32F0ni_w" position="-198.0,203.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_uluA8jGREeuZ4L32F0ni_w" name="LegacyStyledElement">
+      <modelElement href="analista-ejb.uml#_uV74gDGREeuZ4L32F0ni_w"/>
+    </stereotypes>
+    <stereotypes xmi:id="_uluA8zGREeuZ4L32F0ni_w" name="Annotations">
+      <modelElement href="analista-ejb.uml#_uV-70DGREeuZ4L32F0ni_w"/>
+    </stereotypes>
+    <visibility xmi:id="_uluA9DGREeuZ4L32F0ni_w" label="+"/>
+    <attributes xmi:id="_uluA9TGREeuZ4L32F0ni_w" name="em">
+      <modelElement href="analista-ejb.uml#_udl_sjGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_uluA9jGREeuZ4L32F0ni_w" name="Annotations">
+        <modelElement href="analista-ejb.uml#_udmmwDGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_uluA9zGREeuZ4L32F0ni_w" label="-"/>
+      <cardinality xmi:id="_uluA-DGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_uluA-TGREeuZ4L32F0ni_w" name="EntityManager">
+        <modelElement href="analista-ejb.uml#_uYby4DGREeuZ4L32F0ni_w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_uluA-jGREeuZ4L32F0ni_w" name="clienteDao">
+      <modelElement href="analista-ejb.uml#_udmmwjGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_uluA-zGREeuZ4L32F0ni_w" label="-"/>
+      <cardinality xmi:id="_uluA_DGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_uluA_TGREeuZ4L32F0ni_w" name="ClienteDao">
+        <modelElement href="analista-ejb.uml#_uU2TYDGREeuZ4L32F0ni_w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_uluA_jGREeuZ4L32F0ni_w" name="init">
+      <modelElement href="analista-ejb.uml#_uV74gTGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_uluA_zGREeuZ4L32F0ni_w" name="Annotations">
+        <modelElement href="analista-ejb.uml#_uV8fkDGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_uluBADGREeuZ4L32F0ni_w" label="-"/>
+      <cardinality xmi:id="_uluBATGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_uluBAjGREeuZ4L32F0ni_w" name="ClienteBean">
+      <modelElement href="analista-ejb.uml#_uV8fkjGREeuZ4L32F0ni_w"/>
+      <keywords xmi:id="_uluBAzGREeuZ4L32F0ni_w" keyword="create"/>
+      <visibility xmi:id="_uluBBDGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_uluBBTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uluBBjGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_uV9GojGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_uluBBzGREeuZ4L32F0ni_w" name="ClienteBean">
+          <modelElement href="analista-ejb.uml#_uV7RcDGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_uluBCDGREeuZ4L32F0ni_w" name="getAllClients">
+      <modelElement href="analista-ejb.uml#_uV9tsDGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_uluBCTGREeuZ4L32F0ni_w" name="StyledElement">
+        <modelElement href="analista-ejb.uml#_uV-UwDGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_uluBCjGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_uluBCzGREeuZ4L32F0ni_w" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_uluBDDGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_uV9tsTGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_uluBDTGREeuZ4L32F0ni_w" name="ClienteDto">
+          <modelElement href="analista-ejb.uml#_uVz8sDGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_uluBDjGREeuZ4L32F0ni_w" name="save">
+      <modelElement href="analista-ejb.uml#_uaTbIDGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_uluBDzGREeuZ4L32F0ni_w" name="StyledElement">
+        <modelElement href="analista-ejb.uml#_uaUCMDGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_uluBEDGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_uluBETGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_uluBEjGREeuZ4L32F0ni_w" name="client">
+        <modelElement href="analista-ejb.uml#_uaTbITGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_uluBEzGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_uluBFDGREeuZ4L32F0ni_w" name="Cliente">
+          <modelElement href="analista-ejb.uml#_uVPU8DGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_uluBFTGREeuZ4L32F0ni_w" name="ClienteBean">
+      <modelElement href="analista-ejb.uml#_ub-2IDGREeuZ4L32F0ni_w"/>
+      <keywords xmi:id="_uluBFjGREeuZ4L32F0ni_w" keyword="create"/>
+      <stereotypes xmi:id="_uluBFzGREeuZ4L32F0ni_w" name="StyledElement">
+        <modelElement href="analista-ejb.uml#_ub_dNDGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_uluBGDGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_uluBGTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uluBGjGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_ub_dMzGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_uluBGzGREeuZ4L32F0ni_w" name="ClienteBean">
+          <modelElement href="analista-ejb.uml#_uV7RcDGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_uluBHDGREeuZ4L32F0ni_w" name="em">
+        <modelElement href="analista-ejb.uml#_ub_dMDGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_uluBHTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_uluBHjGREeuZ4L32F0ni_w" name="EntityManager">
+          <modelElement href="analista-ejb.uml#_uYby4DGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_uluBHzGREeuZ4L32F0ni_w" name="getClientById">
+      <modelElement href="analista-ejb.uml#_ucAEQDGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_uluBIDGREeuZ4L32F0ni_w" name="StyledElement">
+        <modelElement href="analista-ejb.uml#_ucAEQzGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_uluBITGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_uluBIjGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uluBIzGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_ucAEQjGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_uluBJDGREeuZ4L32F0ni_w" name="Cliente">
+          <modelElement href="analista-ejb.uml#_uVPU8DGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_uluBJTGREeuZ4L32F0ni_w" name="idClient">
+        <modelElement href="analista-ejb.uml#_ucAEQTGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_uluBJjGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_uluBJzGREeuZ4L32F0ni_w" name="Long">
+          <modelElement href="analista-ejb.uml#_ubbcgTGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_uluBKDGREeuZ4L32F0ni_w" name="delete">
+      <modelElement href="analista-ejb.uml#_ucArUDGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_uluBKTGREeuZ4L32F0ni_w" name="StyledElement">
+        <modelElement href="analista-ejb.uml#_ucArUzGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_uluBKjGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_uluBKzGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uluBLDGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_ucArUjGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_uluBLTGREeuZ4L32F0ni_w" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_uluBLjGREeuZ4L32F0ni_w" name="idClient">
+        <modelElement href="analista-ejb.uml#_ucArUTGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_uluBLzGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_uluBMDGREeuZ4L32F0ni_w" name="Long">
+          <modelElement href="analista-ejb.uml#_ubbcgTGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ul5AEDGREeuZ4L32F0ni_w" name="FichaBean" associationsIn="_umEmQDGREeuZ4L32F0ni_w" associationsOut="_ul0HkDGREeuZ4L32F0ni_w _ul1VsDGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_uWB_IDGREeuZ4L32F0ni_w"/>
+    <visualProperties xmi:id="_ul5AETGREeuZ4L32F0ni_w" position="-1989.0,396.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_ul5AEjGREeuZ4L32F0ni_w" name="LegacyStyledElement">
+      <modelElement href="analista-ejb.uml#_uWCmMDGREeuZ4L32F0ni_w"/>
+    </stereotypes>
+    <stereotypes xmi:id="_ul5AEzGREeuZ4L32F0ni_w" name="Annotations">
+      <modelElement href="analista-ejb.uml#_uWFCcDGREeuZ4L32F0ni_w"/>
+    </stereotypes>
+    <visibility xmi:id="_ul5AFDGREeuZ4L32F0ni_w" label="+"/>
+    <attributes xmi:id="_ul5AFTGREeuZ4L32F0ni_w" name="em">
+      <modelElement href="analista-ejb.uml#_udnN0DGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_ul5AFjGREeuZ4L32F0ni_w" name="Annotations">
+        <modelElement href="analista-ejb.uml#_udn04DGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ul5AFzGREeuZ4L32F0ni_w" label="-"/>
+      <cardinality xmi:id="_ul5AGDGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ul5AGTGREeuZ4L32F0ni_w" name="EntityManager">
+        <modelElement href="analista-ejb.uml#_uYby4DGREeuZ4L32F0ni_w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ul5AGjGREeuZ4L32F0ni_w" name="fichaDao">
+      <modelElement href="analista-ejb.uml#_udn04jGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_ul5AGzGREeuZ4L32F0ni_w" label="-"/>
+      <cardinality xmi:id="_ul5AHDGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ul5AHTGREeuZ4L32F0ni_w" name="FichaDao">
+        <modelElement href="analista-ejb.uml#_uU-2QDGREeuZ4L32F0ni_w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ul5AHjGREeuZ4L32F0ni_w" name="init">
+      <modelElement href="analista-ejb.uml#_uWCmMTGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_ul5AHzGREeuZ4L32F0ni_w" name="Annotations">
+        <modelElement href="analista-ejb.uml#_uWDNQDGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ul5AIDGREeuZ4L32F0ni_w" label="-"/>
+      <cardinality xmi:id="_ul5AITGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_ul5AIjGREeuZ4L32F0ni_w" name="FichaBean">
+      <modelElement href="analista-ejb.uml#_uWD0UDGREeuZ4L32F0ni_w"/>
+      <keywords xmi:id="_ul5AIzGREeuZ4L32F0ni_w" keyword="create"/>
+      <visibility xmi:id="_ul5AJDGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ul5AJTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ul5AJjGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_uWD0UzGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_ul5AJzGREeuZ4L32F0ni_w" name="FichaBean">
+          <modelElement href="analista-ejb.uml#_uWB_IDGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ul5AKDGREeuZ4L32F0ni_w" name="save">
+      <modelElement href="analista-ejb.uml#_uaVQUDGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_ul5AKTGREeuZ4L32F0ni_w" name="StyledElement">
+        <modelElement href="analista-ejb.uml#_uaV3YTGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ul5AKjGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ul5AKzGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ul5ALDGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_uaV3YDGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_ul5ALTGREeuZ4L32F0ni_w" name="Ficha">
+          <modelElement href="analista-ejb.uml#_uVYe4DGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ul5ALjGREeuZ4L32F0ni_w" name="ficha">
+        <modelElement href="analista-ejb.uml#_uaVQUTGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_ul5ALzGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_ul5AMDGREeuZ4L32F0ni_w" name="Ficha">
+          <modelElement href="analista-ejb.uml#_uVYe4DGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ul5AMTGREeuZ4L32F0ni_w" name="criarFichaCliente">
+      <modelElement href="analista-ejb.uml#_uaWecDGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_ul5AMjGREeuZ4L32F0ni_w" name="StyledElement">
+        <modelElement href="analista-ejb.uml#_uaXFgTGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ul5AMzGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ul5ANDGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ul5ANTGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_uaXFgDGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_ul5ANjGREeuZ4L32F0ni_w" name="Ficha">
+          <modelElement href="analista-ejb.uml#_uVYe4DGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ul5ANzGREeuZ4L32F0ni_w" name="cliente">
+        <modelElement href="analista-ejb.uml#_uaWecTGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_ul5AODGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_ul5AOTGREeuZ4L32F0ni_w" name="Cliente">
+          <modelElement href="analista-ejb.uml#_uVPU8DGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ul5AOjGREeuZ4L32F0ni_w" name="FichaBean">
+      <modelElement href="analista-ejb.uml#_ucBSYDGREeuZ4L32F0ni_w"/>
+      <keywords xmi:id="_ul5AOzGREeuZ4L32F0ni_w" keyword="create"/>
+      <stereotypes xmi:id="_ul5APDGREeuZ4L32F0ni_w" name="StyledElement">
+        <modelElement href="analista-ejb.uml#_ucB5czGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ul5APTGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ul5APjGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ul5APzGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_ucB5cjGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_ul5AQDGREeuZ4L32F0ni_w" name="FichaBean">
+          <modelElement href="analista-ejb.uml#_uWB_IDGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ul5AQTGREeuZ4L32F0ni_w" name="em">
+        <modelElement href="analista-ejb.uml#_ucBSYTGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_ul5AQjGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_ul5AQzGREeuZ4L32F0ni_w" name="EntityManager">
+          <modelElement href="analista-ejb.uml#_uYby4DGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ul5ARDGREeuZ4L32F0ni_w" name="getFichaById">
+      <modelElement href="analista-ejb.uml#_ucB5dDGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_ul5ARTGREeuZ4L32F0ni_w" name="StyledElement">
+        <modelElement href="analista-ejb.uml#_ucCggTGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ul5ARjGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ul5ARzGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ul5ASDGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_ucCggDGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_ul5ASTGREeuZ4L32F0ni_w" name="Ficha">
+          <modelElement href="analista-ejb.uml#_uVYe4DGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ul5ASjGREeuZ4L32F0ni_w" name="idFicha">
+        <modelElement href="analista-ejb.uml#_ucB5dTGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_ul5ASzGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_ul5ATDGREeuZ4L32F0ni_w" name="Long">
+          <modelElement href="analista-ejb.uml#_ubbcgTGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ul5ATTGREeuZ4L32F0ni_w" name="delete">
+      <modelElement href="analista-ejb.uml#_ucCggjGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_ul5ATjGREeuZ4L32F0ni_w" name="StyledElement">
+        <modelElement href="analista-ejb.uml#_ucDHkTGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ul5ATzGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ul5AUDGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ul5AUTGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_ucDHkDGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_ul5AUjGREeuZ4L32F0ni_w" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ul5AUzGREeuZ4L32F0ni_w" name="idFicha">
+        <modelElement href="analista-ejb.uml#_ucCggzGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_ul5AVDGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_ul5AVTGREeuZ4L32F0ni_w" name="Long">
+          <modelElement href="analista-ejb.uml#_ubbcgTGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ul5AVjGREeuZ4L32F0ni_w" name="getFichaByIdCliente">
+      <modelElement href="analista-ejb.uml#_ucDHkjGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_ul5AVzGREeuZ4L32F0ni_w" name="StyledElement">
+        <modelElement href="analista-ejb.uml#_ucDuoDGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ul5AWDGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_ul5AWTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ul5AWjGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_ucDHlDGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_ul5AWzGREeuZ4L32F0ni_w" name="Ficha">
+          <modelElement href="analista-ejb.uml#_uVYe4DGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ul5AXDGREeuZ4L32F0ni_w" name="idCliente">
+        <modelElement href="analista-ejb.uml#_ucDHkzGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_ul5AXTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_ul5AXjGREeuZ4L32F0ni_w" name="Long">
+          <modelElement href="analista-ejb.uml#_ubbcgTGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_umKs4DGREeuZ4L32F0ni_w" name="ProcedimentoBean" associationsOut="_umDYIDGREeuZ4L32F0ni_w _umD_MDGREeuZ4L32F0ni_w _umEmQDGREeuZ4L32F0ni_w _umEmQTGREeuZ4L32F0ni_w _umFNUDGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_uWJT4DGREeuZ4L32F0ni_w"/>
+    <visualProperties xmi:id="_umKs4TGREeuZ4L32F0ni_w" position="-935.0,681.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_umKs4jGREeuZ4L32F0ni_w" name="LegacyStyledElement">
+      <modelElement href="analista-ejb.uml#_uWJT4TGREeuZ4L32F0ni_w"/>
+    </stereotypes>
+    <stereotypes xmi:id="_umKs4zGREeuZ4L32F0ni_w" name="Annotations">
+      <modelElement href="analista-ejb.uml#_uWM-QDGREeuZ4L32F0ni_w"/>
+    </stereotypes>
+    <visibility xmi:id="_umKs5DGREeuZ4L32F0ni_w" label="+"/>
+    <attributes xmi:id="_umKs5TGREeuZ4L32F0ni_w" name="em">
+      <modelElement href="analista-ejb.uml#_udob8DGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_umKs5jGREeuZ4L32F0ni_w" name="Annotations">
+        <modelElement href="analista-ejb.uml#_udob8TGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_umKs5zGREeuZ4L32F0ni_w" label="-"/>
+      <cardinality xmi:id="_umKs6DGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_umKs6TGREeuZ4L32F0ni_w" name="EntityManager">
+        <modelElement href="analista-ejb.uml#_uYby4DGREeuZ4L32F0ni_w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_umKs6jGREeuZ4L32F0ni_w" name="procedimentoDao">
+      <modelElement href="analista-ejb.uml#_udpDADGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_umKs6zGREeuZ4L32F0ni_w" label="-"/>
+      <cardinality xmi:id="_umKs7DGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_umKs7TGREeuZ4L32F0ni_w" name="ProcedimentoDao">
+        <modelElement href="analista-ejb.uml#_uVJOUDGREeuZ4L32F0ni_w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_umKs7jGREeuZ4L32F0ni_w" name="clienteBean">
+      <modelElement href="analista-ejb.uml#_udpDATGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_umKs7zGREeuZ4L32F0ni_w" label="-"/>
+      <cardinality xmi:id="_umKs8DGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_umKs8TGREeuZ4L32F0ni_w" name="ClienteBean">
+        <modelElement href="analista-ejb.uml#_uV7RcDGREeuZ4L32F0ni_w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_umKs8jGREeuZ4L32F0ni_w" name="fichaBean">
+      <modelElement href="analista-ejb.uml#_udpqEDGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_umKs8zGREeuZ4L32F0ni_w" label="-"/>
+      <cardinality xmi:id="_umKs9DGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_umKs9TGREeuZ4L32F0ni_w" name="FichaBean">
+        <modelElement href="analista-ejb.uml#_uWB_IDGREeuZ4L32F0ni_w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_umKs9jGREeuZ4L32F0ni_w" name="marcarProcedimentoDao">
+      <modelElement href="analista-ejb.uml#_udpqETGREeuZ4L32F0ni_w"/>
+      <visibility xmi:id="_umKs9zGREeuZ4L32F0ni_w" label="-"/>
+      <cardinality xmi:id="_umKs-DGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_umKs-TGREeuZ4L32F0ni_w" name="MarcarProcedimentoDao">
+        <modelElement href="analista-ejb.uml#_uVGyEDGREeuZ4L32F0ni_w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_umKs-jGREeuZ4L32F0ni_w" name="init">
+      <modelElement href="analista-ejb.uml#_uWJ68DGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_umKs-zGREeuZ4L32F0ni_w" name="Annotations">
+        <modelElement href="analista-ejb.uml#_uWKiADGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_umKs_DGREeuZ4L32F0ni_w" label="-"/>
+      <cardinality xmi:id="_umKs_TGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_umKs_jGREeuZ4L32F0ni_w" name="ProcedimentoBean">
+      <modelElement href="analista-ejb.uml#_uWKiAjGREeuZ4L32F0ni_w"/>
+      <keywords xmi:id="_umKs_zGREeuZ4L32F0ni_w" keyword="create"/>
+      <visibility xmi:id="_umKtADGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_umKtATGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_umKtAjGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_uWLJEjGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_umKtAzGREeuZ4L32F0ni_w" name="ProcedimentoBean">
+          <modelElement href="analista-ejb.uml#_uWJT4DGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_umKtBDGREeuZ4L32F0ni_w" name="getAll">
+      <modelElement href="analista-ejb.uml#_uWLwIDGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_umKtBTGREeuZ4L32F0ni_w" name="StyledElement">
+        <modelElement href="analista-ejb.uml#_uWLwIzGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_umKtBjGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_umKtBzGREeuZ4L32F0ni_w" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_umKtCDGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_uWLwITGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_umKtCTGREeuZ4L32F0ni_w" name="ProcedimentoDto">
+          <modelElement href="analista-ejb.uml#_uV3AADGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_umKtCjGREeuZ4L32F0ni_w" name="save">
+      <modelElement href="analista-ejb.uml#_uaY6sDGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_umKtCzGREeuZ4L32F0ni_w" name="StyledElement">
+        <modelElement href="analista-ejb.uml#_uaZhwDGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_umKtDDGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_umKtDTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_umKtDjGREeuZ4L32F0ni_w" name="procedimento">
+        <modelElement href="analista-ejb.uml#_uaY6sTGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_umKtDzGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_umKtEDGREeuZ4L32F0ni_w" name="Procedimento">
+          <modelElement href="analista-ejb.uml#_uVrZ0DGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_umKtETGREeuZ4L32F0ni_w" name="marcarProcedimento">
+      <modelElement href="analista-ejb.uml#_uaaI0DGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_umKtEjGREeuZ4L32F0ni_w" name="StyledElement">
+        <modelElement href="analista-ejb.uml#_uaav4DGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_umKtEzGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_umKtFDGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_umKtFTGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_uaaI0jGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_umKtFjGREeuZ4L32F0ni_w" name="MarcacaoProcedimento">
+          <modelElement href="analista-ejb.uml#_uViP4DGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_umKtFzGREeuZ4L32F0ni_w" name="mp">
+        <modelElement href="analista-ejb.uml#_uaaI0TGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_umKtGDGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_umKtGTGREeuZ4L32F0ni_w" name="MarcacaoProcedimento">
+          <modelElement href="analista-ejb.uml#_uViP4DGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_umKtGjGREeuZ4L32F0ni_w" name="validarLiberacaoAtendimento">
+      <modelElement href="analista-ejb.uml#_uaav4TGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_umKtGzGREeuZ4L32F0ni_w" name="StyledElement">
+        <modelElement href="analista-ejb.uml#_uabW8DGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_umKtHDGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_umKtHTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_umKtHjGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_uaav5DGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_umKtHzGREeuZ4L32F0ni_w" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_umKtIDGREeuZ4L32F0ni_w" name="cliente">
+        <modelElement href="analista-ejb.uml#_uaav4jGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_umKtITGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_umKtIjGREeuZ4L32F0ni_w" name="Cliente">
+          <modelElement href="analista-ejb.uml#_uVPU8DGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_umKtIzGREeuZ4L32F0ni_w" name="procedimento">
+        <modelElement href="analista-ejb.uml#_uaav4zGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_umKtJDGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_umKtJTGREeuZ4L32F0ni_w" name="Procedimento">
+          <modelElement href="analista-ejb.uml#_uVrZ0DGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_umKtJjGREeuZ4L32F0ni_w" name="getProcedimentoById">
+      <modelElement href="analista-ejb.uml#_ucEVsDGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_umKtJzGREeuZ4L32F0ni_w" name="StyledElement">
+        <modelElement href="analista-ejb.uml#_ucEVszGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_umKtKDGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_umKtKTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_umKtKjGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_ucEVsjGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_umKtKzGREeuZ4L32F0ni_w" name="Procedimento">
+          <modelElement href="analista-ejb.uml#_uVrZ0DGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_umKtLDGREeuZ4L32F0ni_w" name="idProcedimento">
+        <modelElement href="analista-ejb.uml#_ucEVsTGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_umKtLTGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_umKtLjGREeuZ4L32F0ni_w" name="Long">
+          <modelElement href="analista-ejb.uml#_ubbcgTGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_umKtLzGREeuZ4L32F0ni_w" name="delete">
+      <modelElement href="analista-ejb.uml#_ucEVtDGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_umKtMDGREeuZ4L32F0ni_w" name="StyledElement">
+        <modelElement href="analista-ejb.uml#_ucE8wjGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_umKtMTGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_umKtMjGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_umKtMzGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_ucE8wTGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_umKtNDGREeuZ4L32F0ni_w" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_umKtNTGREeuZ4L32F0ni_w" name="idProcedimento">
+        <modelElement href="analista-ejb.uml#_ucE8wDGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_umKtNjGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_umKtNzGREeuZ4L32F0ni_w" name="Long">
+          <modelElement href="analista-ejb.uml#_ubbcgTGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_umKtODGREeuZ4L32F0ni_w" name="marcarProcedimento">
+      <modelElement href="analista-ejb.uml#_ucE8wzGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_umKtOTGREeuZ4L32F0ni_w" name="StyledElement">
+        <modelElement href="analista-ejb.uml#_ucFj0zGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_umKtOjGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_umKtOzGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_umKtPDGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_ucFj0jGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_umKtPTGREeuZ4L32F0ni_w" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_umKtPjGREeuZ4L32F0ni_w" name="idCliente">
+        <modelElement href="analista-ejb.uml#_ucFj0DGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_umKtPzGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_umKtQDGREeuZ4L32F0ni_w" name="Long">
+          <modelElement href="analista-ejb.uml#_ubbcgTGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_umKtQTGREeuZ4L32F0ni_w" name="idProcedimento">
+        <modelElement href="analista-ejb.uml#_ucFj0TGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_umKtQjGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_umKtQzGREeuZ4L32F0ni_w" name="Long">
+          <modelElement href="analista-ejb.uml#_ubbcgTGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_umKtRDGREeuZ4L32F0ni_w" name="procedimentosRealizados">
+      <modelElement href="analista-ejb.uml#_ucGK4DGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_umKtRTGREeuZ4L32F0ni_w" name="StyledElement">
+        <modelElement href="analista-ejb.uml#_ucGK5DGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_umKtRjGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_umKtRzGREeuZ4L32F0ni_w" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_umKtSDGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_ucGK4jGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_umKtSTGREeuZ4L32F0ni_w" name="ProcedimentoRealizadoDto">
+          <modelElement href="analista-ejb.uml#_uV5cQDGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_umKtSjGREeuZ4L32F0ni_w" name="idCliente">
+        <modelElement href="analista-ejb.uml#_ucGK4TGREeuZ4L32F0ni_w"/>
+        <cardinality xmi:id="_umKtSzGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+        <type xmi:id="_umKtTDGREeuZ4L32F0ni_w" name="Long">
+          <modelElement href="analista-ejb.uml#_ubbcgTGREeuZ4L32F0ni_w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_umW6IDGREeuZ4L32F0ni_w" name="ClienteBeanTest" associationsOut="_umUd4DGREeuZ4L32F0ni_w">
+    <modelElement href="analista-ejb.uml#_uWSd0DGREeuZ4L32F0ni_w"/>
+    <visualProperties xmi:id="_umW6ITGREeuZ4L32F0ni_w" position="-492.0,469.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_umW6IjGREeuZ4L32F0ni_w" name="LegacyStyledElement">
+      <modelElement href="analista-ejb.uml#_uWTr8DGREeuZ4L32F0ni_w"/>
+    </stereotypes>
+    <stereotypes xmi:id="_umW6IzGREeuZ4L32F0ni_w" name="Annotations">
+      <modelElement href="analista-ejb.uml#_uWbAsDGREeuZ4L32F0ni_w"/>
+    </stereotypes>
+    <visibility xmi:id="_umW6JDGREeuZ4L32F0ni_w" label="+"/>
+    <attributes xmi:id="_umW6JTGREeuZ4L32F0ni_w" name="clienteService">
+      <modelElement href="analista-ejb.uml#_udqRIDGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_umW6JjGREeuZ4L32F0ni_w" name="Annotations">
+        <modelElement href="analista-ejb.uml#_udq4MDGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_umW6JzGREeuZ4L32F0ni_w" label="-"/>
+      <cardinality xmi:id="_umW6KDGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <type xmi:id="_umW6KTGREeuZ4L32F0ni_w" name="ClienteBean">
+        <modelElement href="analista-ejb.uml#_uV7RcDGREeuZ4L32F0ni_w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_umW6KjGREeuZ4L32F0ni_w" name="createTestArchive" staticOperation="true">
+      <modelElement href="analista-ejb.uml#_uWTr8TGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_umW6KzGREeuZ4L32F0ni_w" name="Generics">
+        <modelElement href="analista-ejb.uml#_uWZLgDGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_umW6LDGREeuZ4L32F0ni_w" name="Annotations">
+        <modelElement href="analista-ejb.uml#_uWZykDGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_umW6LTGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_umW6LjGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_umW6LzGREeuZ4L32F0ni_w">
+        <modelElement href="analista-ejb.uml#_ucGx8DGREeuZ4L32F0ni_w"/>
+        <type xmi:id="_umW6MDGREeuZ4L32F0ni_w" name="Archive">
+          <modelElement href="analista-ejb.uml#_uawHEDGREeuZ4L32F0ni_w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_umW6MTGREeuZ4L32F0ni_w" name="testeSalvar">
+      <modelElement href="analista-ejb.uml#_uWZykjGREeuZ4L32F0ni_w"/>
+      <stereotypes xmi:id="_umW6MjGREeuZ4L32F0ni_w" name="Annotations">
+        <modelElement href="analista-ejb.uml#_uWaZoDGREeuZ4L32F0ni_w"/>
+      </stereotypes>
+      <visibility xmi:id="_umW6MzGREeuZ4L32F0ni_w" label="+"/>
+      <cardinality xmi:id="_umW6NDGREeuZ4L32F0ni_w" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

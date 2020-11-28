@@ -20,7 +20,7 @@ public class FichaDao extends GenericDao<Ficha> {
 	public Ficha getFichaByIdCliente(Long idCliente) {
 		try {
 			StringBuilder sql = new StringBuilder();
-			sql.append(" SELECT * FROM Ficha f where f.cliente.id =:idCliente ");
+			sql.append(" SELECT * FROM FICHA f WHERE f.CLIENT_ID =:idCliente ");
 			Query query = em.createNativeQuery(sql.toString(), Ficha.class).setParameter("idCliente", idCliente);
 			return (Ficha) query.getSingleResult();
 		}catch(NoResultException e) {

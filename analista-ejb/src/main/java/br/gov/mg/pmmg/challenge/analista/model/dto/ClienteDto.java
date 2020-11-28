@@ -3,7 +3,7 @@ package br.gov.mg.pmmg.challenge.analista.model.dto;
 import java.math.BigInteger;
 import java.util.Date;
 
-public class ClientDto {
+public class ClienteDto {
 
 	private Integer id;
 

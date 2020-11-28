@@ -21,7 +21,7 @@ import com.google.gson.GsonBuilder;
 
 import br.gov.mg.pmmg.challenge.analista.json.JsonDateDesealize;
 import br.gov.mg.pmmg.challenge.analista.model.Cliente;
-import br.gov.mg.pmmg.challenge.analista.service.ClientBean;
+import br.gov.mg.pmmg.challenge.analista.service.ClienteBean;
 
 @Path("/client")
 @Produces(MediaType.APPLICATION_JSON)
@@ -29,7 +29,7 @@ import br.gov.mg.pmmg.challenge.analista.service.ClientBean;
 public class ClientResource {
 	
 	@EJB
-	private ClientBean clientBean;
+	private ClienteBean clientBean;
 
 	@POST
 	@Path("/save")
